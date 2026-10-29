@@ -1,0 +1,10 @@
+{
+  "validation_kind": "Documentation integrity only; not product acceptance tests",
+  "source_story_count": 12,
+  "exact_story_and_acceptance_text_preserved": true,
+  "missing_source_text": [],
+  "required_document_count": 13,
+  "missing_files": [],
+  "broken_relative_links": [],
+  "passed": true
+}
