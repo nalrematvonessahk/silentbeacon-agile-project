@@ -1,0 +1,32 @@
+{
+  "prepared_on": "2026-10-29",
+  "timezone": "Asia/Yekaterinburg",
+  "source_filename": "SilentBeacon_Agile_Project_Plan_SE2416.docx",
+  "source_sha256": "D63A3CE5AF4EEF05C80B272D46637A3608A6590810C53061B11F90DBD81DE2BE",
+  "source_read": "Full word/document.xml text, including all story criteria, sprint task tables and responsibility sections",
+  "source_is_planning_evidence_only": true,
+  "user_overrides": {
+    "scope": "Visual and interactive academic web prototype; no deployed production backend or physical IoT sensors",
+    "sprint_1": ["2026-10-26", "2026-10-31"],
+    "sprint_2": ["2026-11-01", "2026-11-06"],
+    "sprint_3": ["2026-11-07", "2026-11-12"],
+    "final_defense": "2026-11-13"
+  },
+  "source_forecast": {
+    "story_count": 12,
+    "story_points": 63,
+    "story_points_per_sprint": [21, 21, 21],
+    "original_sprint_duration_weeks": 2,
+    "original_person_hours_per_sprint": 120,
+    "delivery_person_hours_per_sprint": 90,
+    "original_work_package_count": 15,
+    "work_package_hours_each": 18,
+    "capacity_confirmed_for_revised_schedule": false
+  },
+  "evidence_limits": [
+    "Creating planning artifacts does not complete the underlying user stories.",
+    "Original server, release, field trial and microphone privacy acceptance criteria cannot be demonstrated by interface mockups alone.",
+    "No historical meetings, interviews, tests, approvals, commits or team participation are inferred from the plan.",
+    "Social GPA rewards and campus analytics are user-requested prototype additions, not replacements for original story IDs."
+  ]
+}

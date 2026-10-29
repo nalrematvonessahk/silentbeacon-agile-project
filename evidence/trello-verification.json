@@ -1,0 +1,1116 @@
+{
+  "observedAtUTC": "2026-10-29 18:09:57 UTC",
+  "method": "Read-only Trello connector responses; no screenshots captured",
+  "board": {
+    "id": "ari:cloud:trello::board/workspace/6acf4d9e2ee7d8ff987f1d84/6ae3899a84950561c404b040",
+    "objectId": "6ae3899a84950561c404b040",
+    "name": "SilentBeacon — Agile Project Management | SE-2416",
+    "closed": false,
+    "shortLink": "cn7omEzN",
+    "lastActivityAt": "2026-10-29T18:04:02.925Z",
+    "url": "https://trello.com/b/cn7omEzN/silentbeacon-agile-project-management-se-2416",
+    "visibility": "private",
+    "description": "",
+    "creator": {
+      "id": "ari:cloud:trello::user/6acf4d904fdf36e8088d8709",
+      "fullName": "Тамерлан Хасенов",
+      "avatarUrl": "https://trello-members.s3.amazonaws.com/6acf4d904fdf36e8088d8709/b8d57346e2b7fba0af6cc919ca8b9669"
+    },
+    "workspace": {
+      "id": "ari:cloud:trello::workspace/6acf4d9e2ee7d8ff987f1d84",
+      "displayName": "Рабочее пространство Trello"
+    }
+  },
+  "lists": {
+    "lists": [
+      {
+        "id": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389a5185e3750da90e737",
+        "name": "Product Backlog",
+        "position": 16384,
+        "objectId": "6ae389a5185e3750da90e737"
+      },
+      {
+        "id": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389a75a193f0ee638578f",
+        "name": "Sprint Backlog",
+        "position": 32768,
+        "objectId": "6ae389a75a193f0ee638578f"
+      },
+      {
+        "id": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389a97ef6c63f1d8359de",
+        "name": "To Do",
+        "position": 49152,
+        "objectId": "6ae389a97ef6c63f1d8359de"
+      },
+      {
+        "id": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389ab4d0a73272f34a871",
+        "name": "In Progress",
+        "position": 65536,
+        "objectId": "6ae389ab4d0a73272f34a871"
+      },
+      {
+        "id": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389ad9ee40d9ead13f4c8",
+        "name": "Review",
+        "position": 81920,
+        "objectId": "6ae389ad9ee40d9ead13f4c8"
+      },
+      {
+        "id": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389af550a5e91070b8a68",
+        "name": "Testing",
+        "position": 98304,
+        "objectId": "6ae389af550a5e91070b8a68"
+      },
+      {
+        "id": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389b09d26d9a65002f9d0",
+        "name": "Done",
+        "position": 114688,
+        "objectId": "6ae389b09d26d9a65002f9d0"
+      }
+    ],
+    "pageInfo": {
+      "endCursor": "eyJwb3NpdGlvbiI6MTE0Njg4LCJvYmplY3RJZCI6IjZhZTM4OWIwOWQyNmQ5YTY1MDAyZjlkMCIsImZpbHRlciI6eyJjbG9zZWQiOmZhbHNlfX0=",
+      "hasNextPage": false
+    }
+  },
+  "placement": [
+    {
+      "id": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389a5185e3750da90e737",
+      "name": "Product Backlog",
+      "cardIds": [
+        "ari:cloud:trello::card/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389f8b32e322418e7ebbf",
+        "ari:cloud:trello::card/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389fa006d47009f47fbd1",
+        "ari:cloud:trello::card/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389fcce782111623f0a0e",
+        "ari:cloud:trello::card/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389ff7f01ac07da27e2e7",
+        "ari:cloud:trello::card/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a019ffc83797b371389",
+        "ari:cloud:trello::card/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a028a13c3e93ad2acd3",
+        "ari:cloud:trello::card/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a04bfa0be90b14f9770",
+        "ari:cloud:trello::card/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a0690593e797d20a17b"
+      ]
+    },
+    {
+      "id": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389a75a193f0ee638578f",
+      "name": "Sprint Backlog",
+      "cardIds": [
+        "ari:cloud:trello::card/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389f05611e3cc1a10261b",
+        "ari:cloud:trello::card/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389f2ed2455ee547bb906",
+        "ari:cloud:trello::card/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389f459499929f7f09688",
+        "ari:cloud:trello::card/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389f6742e5b3d934c1a63"
+      ]
+    },
+    {
+      "id": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389a97ef6c63f1d8359de",
+      "name": "To Do",
+      "cardIds": []
+    },
+    {
+      "id": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389ab4d0a73272f34a871",
+      "name": "In Progress",
+      "cardIds": []
+    },
+    {
+      "id": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389ad9ee40d9ead13f4c8",
+      "name": "Review",
+      "cardIds": []
+    },
+    {
+      "id": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389af550a5e91070b8a68",
+      "name": "Testing",
+      "cardIds": []
+    },
+    {
+      "id": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389b09d26d9a65002f9d0",
+      "name": "Done",
+      "cardIds": []
+    }
+  ],
+  "cards": [
+    {
+      "id": "ari:cloud:trello::card/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389f05611e3cc1a10261b",
+      "name": "US01 — Selectable campus floor map | S1 · 5 SP · Must",
+      "description": "## User story\nAs a student, I want a floor map to locate study zones.\n\n## Original acceptance criteria — not yet verified\nAccept when all pilot zones can be selected on the correct floor and opened by keyboard.\n\n## Planning metadata\n- Sprint 1: 2026-10-26–2026-10-31, 2026 schedule supplied by the user.\n- Story points: 5 SP. Priority: Must.\n- Responsible coordination contact (PROPOSED): Merey Amangeldi; pending Developers' agreement. The source assigns sprint work-package leads, not individual story owners. No team acceptance or platform membership is implied.\n- Due: 2026-10-31 at 23:59 Asia/Yekaterinburg (UTC+5); administrative end-of-sprint convention, not a source time commitment.\n- Sprint goal from source: A student can find a pilot zone using current manual noise and outlet reports.\n- Status: Planned. Placed in Sprint Backlog as the source forecast; team commitment is not recorded.\n\n## Prototype scope and evidence boundary\nPrototype represents zone selection; actual approved campus layout and browser keyboard implementation are not proven by Figma.\nAll campus reports are demonstration data. No physical IoT sensors. No completed implementation, research, tests or meetings are claimed.\n\n## Source and changes\nSilentBeacon_Agile_Project_Plan_SE2416.docx, §§3.3–3.4 and sprint task tables. Original 21 SP per sprint retained. The user's six-day sprint dates and prototype-only scope replace the proposed six-week delivery calendar. Original 120 person-hours per two-week sprint is not a valid confirmed six-day capacity; team reforecast required. Final defense: 2026-11-13.\n\n## Checklist policy\nTasks below are proposed prototype work derived from this story, not copied source task estimates. All remain unchecked until evidence is attached and reviewed. Original acceptance criteria are retained and must not be marked satisfied merely by simulated UI.\n\n## Draft design evidence — 29 October 2026\nAssistant-created editable design draft; original acceptance remains unverified and team review is pending. These links do not imply story or checklist completion. Report, verification, expiry, sampling and analytics examples are simulations.\n\n- [Desktop web / 02 Campus Floor Map](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1435)\n- [Desktop web / 03 Study Zone Details](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1575)",
+      "url": "https://trello.com/c/GWMsVrqZ/1-us01-selectable-campus-floor-map-s1-5-sp-must",
+      "shortUrl": "https://trello.com/c/GWMsVrqZ",
+      "closed": false,
+      "complete": false,
+      "position": 16384,
+      "lastActivityAt": "2026-10-29T18:08:44.599Z",
+      "startedAt": null,
+      "due": {
+        "date": "2026-10-31T18:59:00.000Z",
+        "complete": false
+      },
+      "listId": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389a75a193f0ee638578f",
+      "boardId": "ari:cloud:trello::board/workspace/6acf4d9e2ee7d8ff987f1d84/6ae3899a84950561c404b040",
+      "labels": [],
+      "labelsHasMore": false,
+      "checklists": [
+        {
+          "id": "ari:cloud:trello::checklist/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a1c75d49be3d6a4da40",
+          "name": "Proposed prototype tasks — evidence required",
+          "position": 140737488355328,
+          "checkItems": [
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a3a1daf80332247326e",
+              "name": "Prepare a labeled schematic with stable zone IDs and two floor views",
+              "state": "INCOMPLETE",
+              "position": 16384
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a3c12be5275d936272d",
+              "name": "Connect zone selection to the Study Zone Details screen",
+              "state": "INCOMPLETE",
+              "position": 32768
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a3eb0dd4e6179371f26",
+              "name": "Document keyboard navigation intent and inspect desktop and 360px layouts",
+              "state": "INCOMPLETE",
+              "position": 49152
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a3ff6dd1e4ffbd92265",
+              "name": "Obtain second-member review and attach dated evidence before any Done decision",
+              "state": "INCOMPLETE",
+              "position": 65536
+            }
+          ],
+          "checkItemsHasMore": false
+        }
+      ],
+      "checklistsHasMore": false,
+      "members": [],
+      "comments": [],
+      "commentsHasMore": false,
+      "list": {
+        "id": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389a75a193f0ee638578f",
+        "name": "Sprint Backlog"
+      },
+      "board": {
+        "id": "ari:cloud:trello::board/workspace/6acf4d9e2ee7d8ff987f1d84/6ae3899a84950561c404b040",
+        "name": "SilentBeacon — Agile Project Management | SE-2416"
+      }
+    },
+    {
+      "id": "ari:cloud:trello::card/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389f2ed2455ee547bb906",
+      "name": "US02 — Manual noise and outlet reports | S1 · 5 SP · Must",
+      "description": "## User story\nAs a contributor, I want to report noise and outlets.\n\n## Original acceptance criteria — not yet verified\nAccept when valid categories save, invalid values fail and zone details show the submitted values.\n\n## Planning metadata\n- Sprint 1: 2026-10-26–2026-10-31, 2026 schedule supplied by the user.\n- Story points: 5 SP. Priority: Must.\n- Responsible coordination contact (PROPOSED): Askhat Rakhmetollayev; pending Developers' agreement. The source assigns sprint work-package leads, not individual story owners. No team acceptance or platform membership is implied.\n- Due: 2026-10-31 at 23:59 Asia/Yekaterinburg (UTC+5); administrative end-of-sprint convention, not a source time commitment.\n- Sprint goal from source: A student can find a pilot zone using current manual noise and outlet reports.\n- Status: Planned. Placed in Sprint Backlog as the source forecast; team commitment is not recorded.\n\n## Prototype scope and evidence boundary\nPrototype simulates submission and updated details; persistence and server validation remain unverified.\nAll campus reports are demonstration data. No physical IoT sensors. No completed implementation, research, tests or meetings are claimed.\n\n## Source and changes\nSilentBeacon_Agile_Project_Plan_SE2416.docx, §§3.3–3.4 and sprint task tables. Original 21 SP per sprint retained. The user's six-day sprint dates and prototype-only scope replace the proposed six-week delivery calendar. Original 120 person-hours per two-week sprint is not a valid confirmed six-day capacity; team reforecast required. Final defense: 2026-11-13.\n\n## Checklist policy\nTasks below are proposed prototype work derived from this story, not copied source task estimates. All remain unchecked until evidence is attached and reviewed. Original acceptance criteria are retained and must not be marked satisfied merely by simulated UI.\n\n## Draft design evidence — 29 October 2026\nAssistant-created editable design draft; original acceptance remains unverified and team review is pending. These links do not imply story or checklist completion. Report, verification, expiry, sampling and analytics examples are simulations.\n\n- [Desktop web / 04 Submit Noise and Outlet Report](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1635)\n- [Desktop web / 05 Report Verification Status](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1702)\n- [Desktop web / 13 Zone / Submitted example](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2267)",
+      "url": "https://trello.com/c/YVAxeQti/2-us02-manual-noise-and-outlet-reports-s1-5-sp-must",
+      "shortUrl": "https://trello.com/c/YVAxeQti",
+      "closed": false,
+      "complete": false,
+      "position": 32768,
+      "lastActivityAt": "2026-10-29T18:08:46.360Z",
+      "startedAt": null,
+      "due": {
+        "date": "2026-10-31T18:59:00.000Z",
+        "complete": false
+      },
+      "listId": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389a75a193f0ee638578f",
+      "boardId": "ari:cloud:trello::board/workspace/6acf4d9e2ee7d8ff987f1d84/6ae3899a84950561c404b040",
+      "labels": [],
+      "labelsHasMore": false,
+      "checklists": [
+        {
+          "id": "ari:cloud:trello::checklist/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a1f22a3822818f3937e",
+          "name": "Proposed prototype tasks — evidence required",
+          "position": 140737488355328,
+          "checkItems": [
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a419f48d85d1e5f7b67",
+              "name": "Design Quiet / Moderate / Loud and Available / None available / Unknown controls",
+              "state": "INCOMPLETE",
+              "position": 16384
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a422445b5b8e6624831",
+              "name": "Connect manual submission to visibly simulated verification and updated details",
+              "state": "INCOMPLETE",
+              "position": 32768
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a4411f86532d7edc4e2",
+              "name": "Prepare invalid-input and unavailable-outlet demonstration cases",
+              "state": "INCOMPLETE",
+              "position": 49152
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a4675996e21ba4ec3d8",
+              "name": "Obtain second-member review and attach dated evidence before any Done decision",
+              "state": "INCOMPLETE",
+              "position": 65536
+            }
+          ],
+          "checkItemsHasMore": false
+        }
+      ],
+      "checklistsHasMore": false,
+      "members": [],
+      "comments": [],
+      "commentsHasMore": false,
+      "list": {
+        "id": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389a75a193f0ee638578f",
+        "name": "Sprint Backlog"
+      },
+      "board": {
+        "id": "ari:cloud:trello::board/workspace/6acf4d9e2ee7d8ff987f1d84/6ae3899a84950561c404b040",
+        "name": "SilentBeacon — Agile Project Management | SE-2416"
+      }
+    },
+    {
+      "id": "ari:cloud:trello::card/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389f459499929f7f09688",
+      "name": "US03 — Quiet zones with available power | S1 · 5 SP · Must",
+      "description": "## User story\nAs an interview candidate, I want quiet zones with power.\n\n## Original acceptance criteria — not yet verified\nAccept when the combined filter includes only Quiet zones with Available outlets and explains an empty result.\n\n## Planning metadata\n- Sprint 1: 2026-10-26–2026-10-31, 2026 schedule supplied by the user.\n- Story points: 5 SP. Priority: Must.\n- Responsible coordination contact (PROPOSED): Merey Amangeldi; pending Developers' agreement. The source assigns sprint work-package leads, not individual story owners. No team acceptance or platform membership is implied.\n- Due: 2026-10-31 at 23:59 Asia/Yekaterinburg (UTC+5); administrative end-of-sprint convention, not a source time commitment.\n- Sprint goal from source: A student can find a pilot zone using current manual noise and outlet reports.\n- Status: Planned. Placed in Sprint Backlog as the source forecast; team commitment is not recorded.\n\n## Prototype scope and evidence boundary\nPrototype shows filter outcomes with demonstration data; executable filtering tests remain unverified.\nAll campus reports are demonstration data. No physical IoT sensors. No completed implementation, research, tests or meetings are claimed.\n\n## Source and changes\nSilentBeacon_Agile_Project_Plan_SE2416.docx, §§3.3–3.4 and sprint task tables. Original 21 SP per sprint retained. The user's six-day sprint dates and prototype-only scope replace the proposed six-week delivery calendar. Original 120 person-hours per two-week sprint is not a valid confirmed six-day capacity; team reforecast required. Final defense: 2026-11-13.\n\n## Checklist policy\nTasks below are proposed prototype work derived from this story, not copied source task estimates. All remain unchecked until evidence is attached and reviewed. Original acceptance criteria are retained and must not be marked satisfied merely by simulated UI.\n\n## Draft design evidence — 29 October 2026\nAssistant-created editable design draft; original acceptance remains unverified and team review is pending. These links do not imply story or checklist completion. Report, verification, expiry, sampling and analytics examples are simulations.\n\n- [Desktop web / 09 Map / Quiet and outlet filter](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1927)\n- [Desktop web / 10 Map / Floor 2 empty results](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2012)",
+      "url": "https://trello.com/c/O1swrnCY/3-us03-quiet-zones-with-available-power-s1-5-sp-must",
+      "shortUrl": "https://trello.com/c/O1swrnCY",
+      "closed": false,
+      "complete": false,
+      "position": 49152,
+      "lastActivityAt": "2026-10-29T18:08:48.077Z",
+      "startedAt": null,
+      "due": {
+        "date": "2026-10-31T18:59:00.000Z",
+        "complete": false
+      },
+      "listId": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389a75a193f0ee638578f",
+      "boardId": "ari:cloud:trello::board/workspace/6acf4d9e2ee7d8ff987f1d84/6ae3899a84950561c404b040",
+      "labels": [],
+      "labelsHasMore": false,
+      "checklists": [
+        {
+          "id": "ari:cloud:trello::checklist/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a20b11034f8abef8acd",
+          "name": "Proposed prototype tasks — evidence required",
+          "position": 140737488355328,
+          "checkItems": [
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a489f5b0618dbc65fb4",
+              "name": "Create combined Quiet + Available outlets filter state",
+              "state": "INCOMPLETE",
+              "position": 16384
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a4acfa936b5a118a41d",
+              "name": "Create matching-results and empty-results prototype views",
+              "state": "INCOMPLETE",
+              "position": 32768
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a4cdf22630f3fcd627f",
+              "name": "Inspect examples to exclude Moderate, Loud, Unknown and expired reports",
+              "state": "INCOMPLETE",
+              "position": 49152
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a4e96c8bdc83d8d5ba5",
+              "name": "Obtain second-member review and attach dated evidence before any Done decision",
+              "state": "INCOMPLETE",
+              "position": 65536
+            }
+          ],
+          "checkItemsHasMore": false
+        }
+      ],
+      "checklistsHasMore": false,
+      "members": [],
+      "comments": [],
+      "commentsHasMore": false,
+      "list": {
+        "id": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389a75a193f0ee638578f",
+        "name": "Sprint Backlog"
+      },
+      "board": {
+        "id": "ari:cloud:trello::board/workspace/6acf4d9e2ee7d8ff987f1d84/6ae3899a84950561c404b040",
+        "name": "SilentBeacon — Agile Project Management | SE-2416"
+      }
+    },
+    {
+      "id": "ari:cloud:trello::card/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389f6742e5b3d934c1a63",
+      "name": "US04 — Readable responsive status details | S1 · 6 SP · Must",
+      "description": "## User story\nAs a visitor, I want readable status details.\n\n## Original acceptance criteria — not yet verified\nAccept when the map works at 360-pixel width and shows category text, report time and an Unknown state.\n\n## Planning metadata\n- Sprint 1: 2026-10-26–2026-10-31, 2026 schedule supplied by the user.\n- Story points: 6 SP. Priority: Must.\n- Responsible coordination contact (PROPOSED): Merey Amangeldi; pending Developers' agreement. The source assigns sprint work-package leads, not individual story owners. No team acceptance or platform membership is implied.\n- Due: 2026-10-31 at 23:59 Asia/Yekaterinburg (UTC+5); administrative end-of-sprint convention, not a source time commitment.\n- Sprint goal from source: A student can find a pilot zone using current manual noise and outlet reports.\n- Status: Planned. Placed in Sprint Backlog as the source forecast; team commitment is not recorded.\n\n## Prototype scope and evidence boundary\nResponsive Figma frames demonstrate intent; runtime accessibility and browser checks are not completed.\nAll campus reports are demonstration data. No physical IoT sensors. No completed implementation, research, tests or meetings are claimed.\n\n## Source and changes\nSilentBeacon_Agile_Project_Plan_SE2416.docx, §§3.3–3.4 and sprint task tables. Original 21 SP per sprint retained. The user's six-day sprint dates and prototype-only scope replace the proposed six-week delivery calendar. Original 120 person-hours per two-week sprint is not a valid confirmed six-day capacity; team reforecast required. Final defense: 2026-11-13.\n\n## Checklist policy\nTasks below are proposed prototype work derived from this story, not copied source task estimates. All remain unchecked until evidence is attached and reviewed. Original acceptance criteria are retained and must not be marked satisfied merely by simulated UI.\n\n## Draft design evidence — 29 October 2026\nAssistant-created editable design draft; original acceptance remains unverified and team review is pending. These links do not imply story or checklist completion. Report, verification, expiry, sampling and analytics examples are simulations.\n\n- [Desktop web / 02 Campus Floor Map](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1435)\n- [Desktop web / 03 Study Zone Details](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1575)\n- [Desktop web / 08 Report Expired / Unknown State](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1870)\n- [Mobile web / 02 Campus Floor Map](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2468)\n- [Mobile web / 03 Study Zone Details](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2617)\n- [Mobile web / 08 Report Expired / Unknown State](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2912)",
+      "url": "https://trello.com/c/Q0cJkxvM/4-us04-readable-responsive-status-details-s1-6-sp-must",
+      "shortUrl": "https://trello.com/c/Q0cJkxvM",
+      "closed": false,
+      "complete": false,
+      "position": 65536,
+      "lastActivityAt": "2026-10-29T18:08:50.026Z",
+      "startedAt": null,
+      "due": {
+        "date": "2026-10-31T18:59:00.000Z",
+        "complete": false
+      },
+      "listId": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389a75a193f0ee638578f",
+      "boardId": "ari:cloud:trello::board/workspace/6acf4d9e2ee7d8ff987f1d84/6ae3899a84950561c404b040",
+      "labels": [],
+      "labelsHasMore": false,
+      "checklists": [
+        {
+          "id": "ari:cloud:trello::checklist/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a22cdeaa8e5a0655e55",
+          "name": "Proposed prototype tasks — evidence required",
+          "position": 140737488355328,
+          "checkItems": [
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a4f187da0e9445d0583",
+              "name": "Create desktop and 360px web layouts with text category labels",
+              "state": "INCOMPLETE",
+              "position": 16384
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a5105ff822d8647320b",
+              "name": "Show noise and outlet report timestamps and separate Unknown states",
+              "state": "INCOMPLETE",
+              "position": 32768
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a53bc4b70012f779a90",
+              "name": "Inspect legibility, focus design and non-color status cues",
+              "state": "INCOMPLETE",
+              "position": 49152
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a55bc7fe6b45510bb2a",
+              "name": "Obtain second-member review and attach dated evidence before any Done decision",
+              "state": "INCOMPLETE",
+              "position": 65536
+            }
+          ],
+          "checkItemsHasMore": false
+        }
+      ],
+      "checklistsHasMore": false,
+      "members": [],
+      "comments": [],
+      "commentsHasMore": false,
+      "list": {
+        "id": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389a75a193f0ee638578f",
+        "name": "Sprint Backlog"
+      },
+      "board": {
+        "id": "ari:cloud:trello::board/workspace/6acf4d9e2ee7d8ff987f1d84/6ae3899a84950561c404b040",
+        "name": "SilentBeacon — Agile Project Management | SE-2416"
+      }
+    },
+    {
+      "id": "ari:cloud:trello::card/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389f8b32e322418e7ebbf",
+      "name": "US05 — Eligible campus contributions | S2 · 8 SP · Must",
+      "description": "## User story\nAs a user, I want eligible campus contributions.\n\n## Original acceptance criteria — not yet verified\nAccept when the server allows a verified campus request, rejects an external request and ignores spoofed client eligibility.\n\n## Planning metadata\n- Sprint 2: 2026-11-01–2026-11-06, 2026 schedule supplied by the user.\n- Story points: 8 SP. Priority: Must.\n- Responsible coordination contact (PROPOSED): Tamerlan Khassenov; pending Developers' agreement. The source assigns sprint work-package leads, not individual story owners. No team acceptance or platform membership is implied.\n- Due: 2026-11-06 at 23:59 Asia/Yekaterinburg (UTC+5); administrative end-of-sprint convention, not a source time commitment.\n- Sprint goal from source: Trustworthy, recent reports.\n- Status: Planned. Future sprint forecast in Product Backlog.\n\n## Prototype scope and evidence boundary\nOnly verification-state UI is in prototype scope. No server eligibility enforcement or real campus verification is claimed.\nAll campus reports are demonstration data. No physical IoT sensors. No completed implementation, research, tests or meetings are claimed.\n\n## Source and changes\nSilentBeacon_Agile_Project_Plan_SE2416.docx, §§3.3–3.4 and sprint task tables. Original 21 SP per sprint retained. The user's six-day sprint dates and prototype-only scope replace the proposed six-week delivery calendar. Original 120 person-hours per two-week sprint is not a valid confirmed six-day capacity; team reforecast required. Final defense: 2026-11-13.\n\n## Checklist policy\nTasks below are proposed prototype work derived from this story, not copied source task estimates. All remain unchecked until evidence is attached and reviewed. Original acceptance criteria are retained and must not be marked satisfied merely by simulated UI.\n\n## Draft design evidence — 29 October 2026\nAssistant-created editable design draft; original acceptance remains unverified and team review is pending. These links do not imply story or checklist completion. Report, verification, expiry, sampling and analytics examples are simulations.\n\n- [Desktop web / 05 Report Verification Status](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1702)\n- [Desktop web / 11 Verification / Blocked](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2161)",
+      "url": "https://trello.com/c/nBJHU6Jj/5-us05-eligible-campus-contributions-s2-8-sp-must",
+      "shortUrl": "https://trello.com/c/nBJHU6Jj",
+      "closed": false,
+      "complete": false,
+      "position": 81920,
+      "lastActivityAt": "2026-10-29T18:08:51.762Z",
+      "startedAt": null,
+      "due": {
+        "date": "2026-11-06T18:59:00.000Z",
+        "complete": false
+      },
+      "listId": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389a5185e3750da90e737",
+      "boardId": "ari:cloud:trello::board/workspace/6acf4d9e2ee7d8ff987f1d84/6ae3899a84950561c404b040",
+      "labels": [],
+      "labelsHasMore": false,
+      "checklists": [
+        {
+          "id": "ari:cloud:trello::checklist/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a241fb4bd4d9f17da0c",
+          "name": "Proposed prototype tasks — evidence required",
+          "position": 140737488355328,
+          "checkItems": [
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a57d6713f77b2601bd7",
+              "name": "Document campus eligibility policy and unconfirmed campus IT dependency",
+              "state": "INCOMPLETE",
+              "position": 16384
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a59ac2866250dd71898",
+              "name": "Design clearly simulated eligible, checking and blocked states",
+              "state": "INCOMPLETE",
+              "position": 32768
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a5b19bbce0383093be9",
+              "name": "Record server allow/reject/spoof cases as deferred implementation verification",
+              "state": "INCOMPLETE",
+              "position": 49152
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a5d7c3b7e53d8557380",
+              "name": "Obtain second-member review and attach dated evidence before any Done decision",
+              "state": "INCOMPLETE",
+              "position": 65536
+            }
+          ],
+          "checkItemsHasMore": false
+        }
+      ],
+      "checklistsHasMore": false,
+      "members": [],
+      "comments": [],
+      "commentsHasMore": false,
+      "list": {
+        "id": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389a5185e3750da90e737",
+        "name": "Product Backlog"
+      },
+      "board": {
+        "id": "ari:cloud:trello::board/workspace/6acf4d9e2ee7d8ff987f1d84/6ae3899a84950561c404b040",
+        "name": "SilentBeacon — Agile Project Management | SE-2416"
+      }
+    },
+    {
+      "id": "ari:cloud:trello::card/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389fa006d47009f47fbd1",
+      "name": "US06 — 45-minute report expiry | S2 · 5 SP · Must",
+      "description": "## User story\nAs a student, I want old reports removed from live results.\n\n## Original acceptance criteria — not yet verified\nAccept when a report expires at age 45 minutes on both map and filter, using server time.\n\n## Planning metadata\n- Sprint 2: 2026-11-01–2026-11-06, 2026 schedule supplied by the user.\n- Story points: 5 SP. Priority: Must.\n- Responsible coordination contact (PROPOSED): Tamerlan Khassenov; pending Developers' agreement. The source assigns sprint work-package leads, not individual story owners. No team acceptance or platform membership is implied.\n- Due: 2026-11-06 at 23:59 Asia/Yekaterinburg (UTC+5); administrative end-of-sprint convention, not a source time commitment.\n- Sprint goal from source: Trustworthy, recent reports.\n- Status: Planned. Future sprint forecast in Product Backlog.\n\n## Prototype scope and evidence boundary\nFigma simulates age and expiry. Authoritative server time and automated expiry remain unverified.\nAll campus reports are demonstration data. No physical IoT sensors. No completed implementation, research, tests or meetings are claimed.\n\n## Source and changes\nSilentBeacon_Agile_Project_Plan_SE2416.docx, §§3.3–3.4 and sprint task tables. Original 21 SP per sprint retained. The user's six-day sprint dates and prototype-only scope replace the proposed six-week delivery calendar. Original 120 person-hours per two-week sprint is not a valid confirmed six-day capacity; team reforecast required. Final defense: 2026-11-13.\n\n## Checklist policy\nTasks below are proposed prototype work derived from this story, not copied source task estimates. All remain unchecked until evidence is attached and reviewed. Original acceptance criteria are retained and must not be marked satisfied merely by simulated UI.\n\n## Draft design evidence — 29 October 2026\nAssistant-created editable design draft; original acceptance remains unverified and team review is pending. These links do not imply story or checklist completion. Report, verification, expiry, sampling and analytics examples are simulations.\n\n- [Desktop web / 08 Report Expired / Unknown State](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1870)",
+      "url": "https://trello.com/c/o1zftLuv/6-us06-45-minute-report-expiry-s2-5-sp-must",
+      "shortUrl": "https://trello.com/c/o1zftLuv",
+      "closed": false,
+      "complete": false,
+      "position": 98304,
+      "lastActivityAt": "2026-10-29T18:08:53.767Z",
+      "startedAt": null,
+      "due": {
+        "date": "2026-11-06T18:59:00.000Z",
+        "complete": false
+      },
+      "listId": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389a5185e3750da90e737",
+      "boardId": "ari:cloud:trello::board/workspace/6acf4d9e2ee7d8ff987f1d84/6ae3899a84950561c404b040",
+      "labels": [],
+      "labelsHasMore": false,
+      "checklists": [
+        {
+          "id": "ari:cloud:trello::checklist/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a26884a642b3b1db69d",
+          "name": "Proposed prototype tasks — evidence required",
+          "position": 140737488355328,
+          "checkItems": [
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a5e92c5f34867c71ffe",
+              "name": "Design 44:59 fresh and 45:00 expired demonstration states",
+              "state": "INCOMPLETE",
+              "position": 16384
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a6061c345431503b8fc",
+              "name": "Show independent noise/outlet expiry and Unknown replacement on map",
+              "state": "INCOMPLETE",
+              "position": 32768
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a628fc6bad933d283e0",
+              "name": "Show an expired report excluded from combined filter results",
+              "state": "INCOMPLETE",
+              "position": 49152
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a64473caf59c736f2ec",
+              "name": "Obtain second-member review and attach dated evidence before any Done decision",
+              "state": "INCOMPLETE",
+              "position": 65536
+            }
+          ],
+          "checkItemsHasMore": false
+        }
+      ],
+      "checklistsHasMore": false,
+      "members": [],
+      "comments": [],
+      "commentsHasMore": false,
+      "list": {
+        "id": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389a5185e3750da90e737",
+        "name": "Product Backlog"
+      },
+      "board": {
+        "id": "ari:cloud:trello::board/workspace/6acf4d9e2ee7d8ff987f1d84/6ae3899a84950561c404b040",
+        "name": "SilentBeacon — Agile Project Management | SE-2416"
+      }
+    },
+    {
+      "id": "ari:cloud:trello::card/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389fcce782111623f0a0e",
+      "name": "US07 — Predictable report updates | S2 · 5 SP · Must",
+      "description": "## User story\nAs a user, I want predictable report updates.\n\n## Original acceptance criteria — not yet verified\nAccept when the newest accepted report wins, repeated requests do not duplicate records and rate limits reject excess writes.\n\n## Planning metadata\n- Sprint 2: 2026-11-01–2026-11-06, 2026 schedule supplied by the user.\n- Story points: 5 SP. Priority: Must.\n- Responsible coordination contact (PROPOSED): Tamerlan Khassenov; pending Developers' agreement. The source assigns sprint work-package leads, not individual story owners. No team acceptance or platform membership is implied.\n- Due: 2026-11-06 at 23:59 Asia/Yekaterinburg (UTC+5); administrative end-of-sprint convention, not a source time commitment.\n- Sprint goal from source: Trustworthy, recent reports.\n- Status: Planned. Future sprint forecast in Product Backlog.\n\n## Prototype scope and evidence boundary\nThe prototype depicts update/error states; atomic writes, idempotency and server rate limits are deferred.\nAll campus reports are demonstration data. No physical IoT sensors. No completed implementation, research, tests or meetings are claimed.\n\n## Source and changes\nSilentBeacon_Agile_Project_Plan_SE2416.docx, §§3.3–3.4 and sprint task tables. Original 21 SP per sprint retained. The user's six-day sprint dates and prototype-only scope replace the proposed six-week delivery calendar. Original 120 person-hours per two-week sprint is not a valid confirmed six-day capacity; team reforecast required. Final defense: 2026-11-13.\n\n## Checklist policy\nTasks below are proposed prototype work derived from this story, not copied source task estimates. All remain unchecked until evidence is attached and reviewed. Original acceptance criteria are retained and must not be marked satisfied merely by simulated UI.\n\n## Draft design evidence — 29 October 2026\nAssistant-created editable design draft; original acceptance remains unverified and team review is pending. These links do not imply story or checklist completion. Report, verification, expiry, sampling and analytics examples are simulations.\n\n- [Desktop web / 13 Zone / Submitted example](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2267)\n- [Desktop web / 11 Verification / Blocked](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2161)",
+      "url": "https://trello.com/c/ozMCcUV7/7-us07-predictable-report-updates-s2-5-sp-must",
+      "shortUrl": "https://trello.com/c/ozMCcUV7",
+      "closed": false,
+      "complete": false,
+      "position": 114688,
+      "lastActivityAt": "2026-10-29T18:08:55.448Z",
+      "startedAt": null,
+      "due": {
+        "date": "2026-11-06T18:59:00.000Z",
+        "complete": false
+      },
+      "listId": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389a5185e3750da90e737",
+      "boardId": "ari:cloud:trello::board/workspace/6acf4d9e2ee7d8ff987f1d84/6ae3899a84950561c404b040",
+      "labels": [],
+      "labelsHasMore": false,
+      "checklists": [
+        {
+          "id": "ari:cloud:trello::checklist/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a288ff18ed546390400",
+          "name": "Proposed prototype tasks — evidence required",
+          "position": 140737488355328,
+          "checkItems": [
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a651c8a7ecfee676fc7",
+              "name": "Document latest-accepted-report rule and equal-time server sequence tie-break",
+              "state": "INCOMPLETE",
+              "position": 16384
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a678e5e275c58bfacab",
+              "name": "Design duplicate-submission and rate-limit feedback examples",
+              "state": "INCOMPLETE",
+              "position": 32768
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a69cb76782270b272ab",
+              "name": "Prepare scenario checklist for newest, duplicate and excess report cases",
+              "state": "INCOMPLETE",
+              "position": 49152
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a6b1791bbf9611a20f3",
+              "name": "Obtain second-member review and attach dated evidence before any Done decision",
+              "state": "INCOMPLETE",
+              "position": 65536
+            }
+          ],
+          "checkItemsHasMore": false
+        }
+      ],
+      "checklistsHasMore": false,
+      "members": [],
+      "comments": [],
+      "commentsHasMore": false,
+      "list": {
+        "id": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389a5185e3750da90e737",
+        "name": "Product Backlog"
+      },
+      "board": {
+        "id": "ari:cloud:trello::board/workspace/6acf4d9e2ee7d8ff987f1d84/6ae3899a84950561c404b040",
+        "name": "SilentBeacon — Agile Project Management | SE-2416"
+      }
+    },
+    {
+      "id": "ari:cloud:trello::card/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389ff7f01ac07da27e2e7",
+      "name": "US08 — Eligibility and error guidance | S2 · 3 SP · Should",
+      "description": "## User story\nAs a contributor, I want clear eligibility and error messages.\n\n## Original acceptance criteria — not yet verified\nAccept when blocked and expired states explain the next action and remain usable without color cues.\n\n## Planning metadata\n- Sprint 2: 2026-11-01–2026-11-06, 2026 schedule supplied by the user.\n- Story points: 3 SP. Priority: Should.\n- Responsible coordination contact (PROPOSED): Askhat Rakhmetollayev; pending Developers' agreement. The source assigns sprint work-package leads, not individual story owners. No team acceptance or platform membership is implied.\n- Due: 2026-11-06 at 23:59 Asia/Yekaterinburg (UTC+5); administrative end-of-sprint convention, not a source time commitment.\n- Sprint goal from source: Trustworthy, recent reports.\n- Status: Planned. Future sprint forecast in Product Backlog.\n\n## Prototype scope and evidence boundary\nUI/error navigation is represented; real network and expiry enforcement remain unverified.\nAll campus reports are demonstration data. No physical IoT sensors. No completed implementation, research, tests or meetings are claimed.\n\n## Source and changes\nSilentBeacon_Agile_Project_Plan_SE2416.docx, §§3.3–3.4 and sprint task tables. Original 21 SP per sprint retained. The user's six-day sprint dates and prototype-only scope replace the proposed six-week delivery calendar. Original 120 person-hours per two-week sprint is not a valid confirmed six-day capacity; team reforecast required. Final defense: 2026-11-13.\n\n## Checklist policy\nTasks below are proposed prototype work derived from this story, not copied source task estimates. All remain unchecked until evidence is attached and reviewed. Original acceptance criteria are retained and must not be marked satisfied merely by simulated UI.\n\n## Draft design evidence — 29 October 2026\nAssistant-created editable design draft; original acceptance remains unverified and team review is pending. These links do not imply story or checklist completion. Report, verification, expiry, sampling and analytics examples are simulations.\n\n- [Desktop web / 11 Verification / Blocked](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2161)\n- [Desktop web / 08 Report Expired / Unknown State](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1870)",
+      "url": "https://trello.com/c/CwJ84dOf/8-us08-eligibility-and-error-guidance-s2-3-sp-should",
+      "shortUrl": "https://trello.com/c/CwJ84dOf",
+      "closed": false,
+      "complete": false,
+      "position": 131072,
+      "lastActivityAt": "2026-10-29T18:08:56.858Z",
+      "startedAt": null,
+      "due": {
+        "date": "2026-11-06T18:59:00.000Z",
+        "complete": false
+      },
+      "listId": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389a5185e3750da90e737",
+      "boardId": "ari:cloud:trello::board/workspace/6acf4d9e2ee7d8ff987f1d84/6ae3899a84950561c404b040",
+      "labels": [],
+      "labelsHasMore": false,
+      "checklists": [
+        {
+          "id": "ari:cloud:trello::checklist/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a29eb8c6980d52bd261",
+          "name": "Proposed prototype tasks — evidence required",
+          "position": 140737488355328,
+          "checkItems": [
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a6c34cd2e484a057204",
+              "name": "Create blocked and expired messages with text and icons",
+              "state": "INCOMPLETE",
+              "position": 16384
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a6e2939ed17540c2e1b",
+              "name": "Connect retry, return to map and submit fresh report actions",
+              "state": "INCOMPLETE",
+              "position": 32768
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a6fa4b8743f04438095",
+              "name": "Inspect each error state for an explicit next step without relying on color",
+              "state": "INCOMPLETE",
+              "position": 49152
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a710d02489fc6af70de",
+              "name": "Obtain second-member review and attach dated evidence before any Done decision",
+              "state": "INCOMPLETE",
+              "position": 65536
+            }
+          ],
+          "checkItemsHasMore": false
+        }
+      ],
+      "checklistsHasMore": false,
+      "members": [],
+      "comments": [],
+      "commentsHasMore": false,
+      "list": {
+        "id": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389a5185e3750da90e737",
+        "name": "Product Backlog"
+      },
+      "board": {
+        "id": "ari:cloud:trello::board/workspace/6acf4d9e2ee7d8ff987f1d84/6ae3899a84950561c404b040",
+        "name": "SilentBeacon — Agile Project Management | SE-2416"
+      }
+    },
+    {
+      "id": "ari:cloud:trello::card/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a019ffc83797b371389",
+      "name": "US09 — Optional three-second noise estimate | S3 · 8 SP · Should",
+      "description": "## User story\nAs a contributor, I want a three-second noise estimate.\n\n## Original acceptance criteria — not yet verified\nAccept when an explicit tap starts local processing after consent, then stops every microphone track.\n\n## Planning metadata\n- Sprint 3: 2026-11-07–2026-11-12, 2026 schedule supplied by the user.\n- Story points: 8 SP. Priority: Should.\n- Responsible coordination contact (PROPOSED): Askhat Rakhmetollayev; pending Developers' agreement. The source assigns sprint work-package leads, not individual story owners. No team acceptance or platform membership is implied.\n- Due: 2026-11-12 at 23:59 Asia/Yekaterinburg (UTC+5); administrative end-of-sprint convention, not a source time commitment.\n- Sprint goal from source: Voluntary noise estimation without audio storage or upload.\n- Status: Planned. Future sprint forecast in Product Backlog.\n\n## Prototype scope and evidence boundary\nNo microphone is activated by the prototype; processing and track cleanup acceptance remains unverified.\nAll campus reports are demonstration data. No physical IoT sensors. No completed implementation, research, tests or meetings are claimed.\n\n## Source and changes\nSilentBeacon_Agile_Project_Plan_SE2416.docx, §§3.3–3.4 and sprint task tables. Original 21 SP per sprint retained. The user's six-day sprint dates and prototype-only scope replace the proposed six-week delivery calendar. Original 120 person-hours per two-week sprint is not a valid confirmed six-day capacity; team reforecast required. Final defense: 2026-11-13.\n\n## Checklist policy\nTasks below are proposed prototype work derived from this story, not copied source task estimates. All remain unchecked until evidence is attached and reviewed. Original acceptance criteria are retained and must not be marked satisfied merely by simulated UI.\n\n## Draft design evidence — 29 October 2026\nAssistant-created editable design draft; original acceptance remains unverified and team review is pending. These links do not imply story or checklist completion. Report, verification, expiry, sampling and analytics examples are simulations.\n\n- [Desktop web / 12 Optional sampling / Consent and fallback](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2214)\n- [Desktop web / 04 Submit Noise and Outlet Report](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1635)",
+      "url": "https://trello.com/c/lm1TPcXI/9-us09-optional-three-second-noise-estimate-s3-8-sp-should",
+      "shortUrl": "https://trello.com/c/lm1TPcXI",
+      "closed": false,
+      "complete": false,
+      "position": 147456,
+      "lastActivityAt": "2026-10-29T18:08:58.799Z",
+      "startedAt": null,
+      "due": {
+        "date": "2026-11-12T18:59:00.000Z",
+        "complete": false
+      },
+      "listId": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389a5185e3750da90e737",
+      "boardId": "ari:cloud:trello::board/workspace/6acf4d9e2ee7d8ff987f1d84/6ae3899a84950561c404b040",
+      "labels": [],
+      "labelsHasMore": false,
+      "checklists": [
+        {
+          "id": "ari:cloud:trello::checklist/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a2b2a9b819315d0d6f1",
+          "name": "Proposed prototype tasks — evidence required",
+          "position": 140737488355328,
+          "checkItems": [
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a7290593e797d21fe07",
+              "name": "Design optional consent and three-second sampling progress as simulations",
+              "state": "INCOMPLETE",
+              "position": 16384
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a7430c7fe64a13e4b40",
+              "name": "Connect explicit start, cancel and manual-report fallback states",
+              "state": "INCOMPLETE",
+              "position": 32768
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a754d8c8d76f5a5b95b",
+              "name": "Document track cleanup cases as deferred browser implementation checks",
+              "state": "INCOMPLETE",
+              "position": 49152
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a77a3a5700409c2c911",
+              "name": "Obtain second-member review and attach dated evidence before any Done decision",
+              "state": "INCOMPLETE",
+              "position": 65536
+            }
+          ],
+          "checkItemsHasMore": false
+        }
+      ],
+      "checklistsHasMore": false,
+      "members": [],
+      "comments": [],
+      "commentsHasMore": false,
+      "list": {
+        "id": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389a5185e3750da90e737",
+        "name": "Product Backlog"
+      },
+      "board": {
+        "id": "ari:cloud:trello::board/workspace/6acf4d9e2ee7d8ff987f1d84/6ae3899a84950561c404b040",
+        "name": "SilentBeacon — Agile Project Management | SE-2416"
+      }
+    },
+    {
+      "id": "ari:cloud:trello::card/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a028a13c3e93ad2acd3",
+      "name": "US10 — Sampling privacy and manual fallback | S3 · 5 SP · Must",
+      "description": "## User story\nAs a privacy-conscious user, I want control over sampling.\n\n## Original acceptance criteria — not yet verified\nAccept when denial or cancellation leaves manual reporting available and network inspection finds no audio upload.\n\n## Planning metadata\n- Sprint 3: 2026-11-07–2026-11-12, 2026 schedule supplied by the user.\n- Story points: 5 SP. Priority: Must.\n- Responsible coordination contact (PROPOSED): Asanali Yessenbekov; pending Developers' agreement. The source assigns sprint work-package leads, not individual story owners. No team acceptance or platform membership is implied.\n- Due: 2026-11-12 at 23:59 Asia/Yekaterinburg (UTC+5); administrative end-of-sprint convention, not a source time commitment.\n- Sprint goal from source: Voluntary noise estimation without audio storage or upload.\n- Status: Planned. Future sprint forecast in Product Backlog.\n\n## Prototype scope and evidence boundary\nConsent/fallback are prototype interactions; actual no-audio-upload and device permission behavior require implementation evidence.\nAll campus reports are demonstration data. No physical IoT sensors. No completed implementation, research, tests or meetings are claimed.\n\n## Source and changes\nSilentBeacon_Agile_Project_Plan_SE2416.docx, §§3.3–3.4 and sprint task tables. Original 21 SP per sprint retained. The user's six-day sprint dates and prototype-only scope replace the proposed six-week delivery calendar. Original 120 person-hours per two-week sprint is not a valid confirmed six-day capacity; team reforecast required. Final defense: 2026-11-13.\n\n## Checklist policy\nTasks below are proposed prototype work derived from this story, not copied source task estimates. All remain unchecked until evidence is attached and reviewed. Original acceptance criteria are retained and must not be marked satisfied merely by simulated UI.\n\n## Draft design evidence — 29 October 2026\nAssistant-created editable design draft; original acceptance remains unverified and team review is pending. These links do not imply story or checklist completion. Report, verification, expiry, sampling and analytics examples are simulations.\n\n- [Desktop web / 12 Optional sampling / Consent and fallback](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2214)\n- [Desktop web / 04 Submit Noise and Outlet Report](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1635)",
+      "url": "https://trello.com/c/iZA8PBLv/10-us10-sampling-privacy-and-manual-fallback-s3-5-sp-must",
+      "shortUrl": "https://trello.com/c/iZA8PBLv",
+      "closed": false,
+      "complete": false,
+      "position": 163840,
+      "lastActivityAt": "2026-10-29T18:09:00.622Z",
+      "startedAt": null,
+      "due": {
+        "date": "2026-11-12T18:59:00.000Z",
+        "complete": false
+      },
+      "listId": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389a5185e3750da90e737",
+      "boardId": "ari:cloud:trello::board/workspace/6acf4d9e2ee7d8ff987f1d84/6ae3899a84950561c404b040",
+      "labels": [],
+      "labelsHasMore": false,
+      "checklists": [
+        {
+          "id": "ari:cloud:trello::checklist/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a2d97c78ea63d1fc96f",
+          "name": "Proposed prototype tasks — evidence required",
+          "position": 140737488355328,
+          "checkItems": [
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a794d017a2b4623fb26",
+              "name": "Connect permission-denied and cancellation states to manual reporting",
+              "state": "INCOMPLETE",
+              "position": 16384
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a7af5a95f90e2c9d9dc",
+              "name": "Add clear no-recording/no-upload design requirements and simulation label",
+              "state": "INCOMPLETE",
+              "position": 32768
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a7c0526a5cb9ab58790",
+              "name": "Prepare network-inspection and permission test record without claiming results",
+              "state": "INCOMPLETE",
+              "position": 49152
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a7e2cf877344a489daf",
+              "name": "Obtain second-member review and attach dated evidence before any Done decision",
+              "state": "INCOMPLETE",
+              "position": 65536
+            }
+          ],
+          "checkItemsHasMore": false
+        }
+      ],
+      "checklistsHasMore": false,
+      "members": [],
+      "comments": [],
+      "commentsHasMore": false,
+      "list": {
+        "id": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389a5185e3750da90e737",
+        "name": "Product Backlog"
+      },
+      "board": {
+        "id": "ari:cloud:trello::board/workspace/6acf4d9e2ee7d8ff987f1d84/6ae3899a84950561c404b040",
+        "name": "SilentBeacon — Agile Project Management | SE-2416"
+      }
+    },
+    {
+      "id": "ari:cloud:trello::card/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a04bfa0be90b14f9770",
+      "name": "US11 — Understandable uncalibrated estimate | S3 · 5 SP · Should",
+      "description": "## User story\nAs a student, I want an understandable estimate.\n\n## Original acceptance criteria — not yet verified\nAccept when pilot devices are compared with observer labels and the interface identifies an uncalibrated estimate.\n\n## Planning metadata\n- Sprint 3: 2026-11-07–2026-11-12, 2026 schedule supplied by the user.\n- Story points: 5 SP. Priority: Should.\n- Responsible coordination contact (PROPOSED): Aldiyar Gaisa; pending Developers' agreement. The source assigns sprint work-package leads, not individual story owners. No team acceptance or platform membership is implied.\n- Due: 2026-11-12 at 23:59 Asia/Yekaterinburg (UTC+5); administrative end-of-sprint convention, not a source time commitment.\n- Sprint goal from source: Voluntary noise estimation without audio storage or upload.\n- Status: Planned. Future sprint forecast in Product Backlog.\n\n## Prototype scope and evidence boundary\nThe estimate is simulated. Observer comparisons, device calibration and 80% target achievement are not completed.\nAll campus reports are demonstration data. No physical IoT sensors. No completed implementation, research, tests or meetings are claimed.\n\n## Source and changes\nSilentBeacon_Agile_Project_Plan_SE2416.docx, §§3.3–3.4 and sprint task tables. Original 21 SP per sprint retained. The user's six-day sprint dates and prototype-only scope replace the proposed six-week delivery calendar. Original 120 person-hours per two-week sprint is not a valid confirmed six-day capacity; team reforecast required. Final defense: 2026-11-13.\n\n## Checklist policy\nTasks below are proposed prototype work derived from this story, not copied source task estimates. All remain unchecked until evidence is attached and reviewed. Original acceptance criteria are retained and must not be marked satisfied merely by simulated UI.\n\n## Draft design evidence — 29 October 2026\nAssistant-created editable design draft; original acceptance remains unverified and team review is pending. These links do not imply story or checklist completion. Report, verification, expiry, sampling and analytics examples are simulations.\n\n- [Desktop web / 12 Optional sampling / Consent and fallback](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2214)\n- [Desktop web / 04 Submit Noise and Outlet Report](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1635)",
+      "url": "https://trello.com/c/tw0DQ12w/11-us11-understandable-uncalibrated-estimate-s3-5-sp-should",
+      "shortUrl": "https://trello.com/c/tw0DQ12w",
+      "closed": false,
+      "complete": false,
+      "position": 180224,
+      "lastActivityAt": "2026-10-29T18:09:01.991Z",
+      "startedAt": null,
+      "due": {
+        "date": "2026-11-12T18:59:00.000Z",
+        "complete": false
+      },
+      "listId": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389a5185e3750da90e737",
+      "boardId": "ari:cloud:trello::board/workspace/6acf4d9e2ee7d8ff987f1d84/6ae3899a84950561c404b040",
+      "labels": [],
+      "labelsHasMore": false,
+      "checklists": [
+        {
+          "id": "ari:cloud:trello::checklist/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a2e8125486c7d7017fd",
+          "name": "Proposed prototype tasks — evidence required",
+          "position": 140737488355328,
+          "checkItems": [
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a8081403bc71440aac1",
+              "name": "Label estimated categories as uncalibrated and ask for confirmation",
+              "state": "INCOMPLETE",
+              "position": 16384
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a824f02a9685bdd781b",
+              "name": "Prepare comparison protocol for 30 samples across three device models",
+              "state": "INCOMPLETE",
+              "position": 32768
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a83b007a32a392db932",
+              "name": "Prepare blank observer/device result table; do not invent measurements",
+              "state": "INCOMPLETE",
+              "position": 49152
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a8cad085fe3804148dd",
+              "name": "Obtain second-member review and attach dated evidence before any Done decision",
+              "state": "INCOMPLETE",
+              "position": 65536
+            }
+          ],
+          "checkItemsHasMore": false
+        }
+      ],
+      "checklistsHasMore": false,
+      "members": [],
+      "comments": [],
+      "commentsHasMore": false,
+      "list": {
+        "id": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389a5185e3750da90e737",
+        "name": "Product Backlog"
+      },
+      "board": {
+        "id": "ari:cloud:trello::board/workspace/6acf4d9e2ee7d8ff987f1d84/6ae3899a84950561c404b040",
+        "name": "SilentBeacon — Agile Project Management | SE-2416"
+      }
+    },
+    {
+      "id": "ari:cloud:trello::card/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a0690593e797d20a17b",
+      "name": "US12 — Repeatable pilot release | S3 · 3 SP · Must",
+      "description": "## User story\nAs a maintainer, I want a repeatable pilot release.\n\n## Original acceptance criteria — not yet verified\nAccept when the release passes the core reporting regression, has setup instructions and supports rollback.\n\n## Planning metadata\n- Sprint 3: 2026-11-07–2026-11-12, 2026 schedule supplied by the user.\n- Story points: 3 SP. Priority: Must.\n- Responsible coordination contact (PROPOSED): Asanali Yessenbekov; pending Developers' agreement. The source assigns sprint work-package leads, not individual story owners. No team acceptance or platform membership is implied.\n- Due: 2026-11-12 at 23:59 Asia/Yekaterinburg (UTC+5); administrative end-of-sprint convention, not a source time commitment.\n- Sprint goal from source: Voluntary noise estimation without audio storage or upload.\n- Status: Planned. Future sprint forecast in Product Backlog.\n\n## Prototype scope and evidence boundary\nAcademic deliverable is a prototype, not the source plan's deployed pilot. Production regression and rollback criteria remain unverified.\nAll campus reports are demonstration data. No physical IoT sensors. No completed implementation, research, tests or meetings are claimed.\n\n## Source and changes\nSilentBeacon_Agile_Project_Plan_SE2416.docx, §§3.3–3.4 and sprint task tables. Original 21 SP per sprint retained. The user's six-day sprint dates and prototype-only scope replace the proposed six-week delivery calendar. Original 120 person-hours per two-week sprint is not a valid confirmed six-day capacity; team reforecast required. Final defense: 2026-11-13.\n\n## Checklist policy\nTasks below are proposed prototype work derived from this story, not copied source task estimates. All remain unchecked until evidence is attached and reviewed. Original acceptance criteria are retained and must not be marked satisfied merely by simulated UI.\n\n## Draft design evidence — 29 October 2026\nAssistant-created editable design draft; original acceptance remains unverified and team review is pending. These links do not imply story or checklist completion. Report, verification, expiry, sampling and analytics examples are simulations.\n\n- [Desktop web / 01 Landing Page](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1377)\n- [Complete editable Figma file](https://www.figma.com/design/spEnordZysj72nrb1p28kb)\nLocal documentation: C:/aitu/pm/silentbeacon-agile-project/README.md and docs/. These are local files; no GitHub repository is published.\n",
+      "url": "https://trello.com/c/J5wfvbFO/12-us12-repeatable-pilot-release-s3-3-sp-must",
+      "shortUrl": "https://trello.com/c/J5wfvbFO",
+      "closed": false,
+      "complete": false,
+      "position": 196608,
+      "lastActivityAt": "2026-10-29T18:09:03.767Z",
+      "startedAt": null,
+      "due": {
+        "date": "2026-11-12T18:59:00.000Z",
+        "complete": false
+      },
+      "listId": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389a5185e3750da90e737",
+      "boardId": "ari:cloud:trello::board/workspace/6acf4d9e2ee7d8ff987f1d84/6ae3899a84950561c404b040",
+      "labels": [],
+      "labelsHasMore": false,
+      "checklists": [
+        {
+          "id": "ari:cloud:trello::checklist/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a3092c5f34867c6a00c",
+          "name": "Proposed prototype tasks — evidence required",
+          "position": 140737488355328,
+          "checkItems": [
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a8d605549f8ad86f9ef",
+              "name": "Document how to open and demonstrate the Figma prototype and repository",
+              "state": "INCOMPLETE",
+              "position": 16384
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a8f0e1ddbc0d733534e",
+              "name": "Prepare core reporting regression and release evidence checklist",
+              "state": "INCOMPLETE",
+              "position": 32768
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a919ba06324b76934f7",
+              "name": "Document restoration/version recovery and unresolved implementation criteria",
+              "state": "INCOMPLETE",
+              "position": 49152
+            },
+            {
+              "id": "ari:cloud:trello::check-item/workspace/6acf4d9e2ee7d8ff987f1d84/6ae38a92e60d00fed82ac25c",
+              "name": "Obtain second-member review and attach dated evidence before any Done decision",
+              "state": "INCOMPLETE",
+              "position": 65536
+            }
+          ],
+          "checkItemsHasMore": false
+        }
+      ],
+      "checklistsHasMore": false,
+      "members": [],
+      "comments": [],
+      "commentsHasMore": false,
+      "list": {
+        "id": "ari:cloud:trello::list/workspace/6acf4d9e2ee7d8ff987f1d84/6ae389a5185e3750da90e737",
+        "name": "Product Backlog"
+      },
+      "board": {
+        "id": "ari:cloud:trello::board/workspace/6acf4d9e2ee7d8ff987f1d84/6ae3899a84950561c404b040",
+        "name": "SilentBeacon — Agile Project Management | SE-2416"
+      }
+    }
+  ],
+  "validation": {
+    "boardPrivate": true,
+    "sevenLists": true,
+    "twelveStories": true,
+    "exactUniqueIds": true,
+    "fortyEightTasks": true,
+    "noCompletedTasks": true,
+    "noCompletedStories": true,
+    "emptyDone": true,
+    "expectedDueDates": true,
+    "exactDescriptions": true,
+    "descriptionMatch": true,
+    "metadataUnchanged": true,
+    "checklistsUnchanged": true,
+    "noCommentsAdded": true,
+    "fortyEightUncheckedTasks": true
+  },
+  "designLinkUpdate": {
+    "date": "2026-10-29",
+    "kind": "Card description updates only; no comments/messages",
+    "fileUrl": "https://www.figma.com/design/spEnordZysj72nrb1p28kb",
+    "links": [
+      {
+        "storyId": "US01",
+        "designLinks": [
+          {
+            "label": "Desktop web / 02 Campus Floor Map",
+            "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1435"
+          },
+          {
+            "label": "Desktop web / 03 Study Zone Details",
+            "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1575"
+          }
+        ]
+      },
+      {
+        "storyId": "US02",
+        "designLinks": [
+          {
+            "label": "Desktop web / 04 Submit Noise and Outlet Report",
+            "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1635"
+          },
+          {
+            "label": "Desktop web / 05 Report Verification Status",
+            "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1702"
+          },
+          {
+            "label": "Desktop web / 13 Zone / Submitted example",
+            "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2267"
+          }
+        ]
+      },
+      {
+        "storyId": "US03",
+        "designLinks": [
+          {
+            "label": "Desktop web / 09 Map / Quiet and outlet filter",
+            "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1927"
+          },
+          {
+            "label": "Desktop web / 10 Map / Floor 2 empty results",
+            "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2012"
+          }
+        ]
+      },
+      {
+        "storyId": "US04",
+        "designLinks": [
+          {
+            "label": "Desktop web / 02 Campus Floor Map",
+            "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1435"
+          },
+          {
+            "label": "Desktop web / 03 Study Zone Details",
+            "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1575"
+          },
+          {
+            "label": "Desktop web / 08 Report Expired / Unknown State",
+            "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1870"
+          },
+          {
+            "label": "Mobile web / 02 Campus Floor Map",
+            "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2468"
+          },
+          {
+            "label": "Mobile web / 03 Study Zone Details",
+            "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2617"
+          },
+          {
+            "label": "Mobile web / 08 Report Expired / Unknown State",
+            "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2912"
+          }
+        ]
+      },
+      {
+        "storyId": "US05",
+        "designLinks": [
+          {
+            "label": "Desktop web / 05 Report Verification Status",
+            "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1702"
+          },
+          {
+            "label": "Desktop web / 11 Verification / Blocked",
+            "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2161"
+          }
+        ]
+      },
+      {
+        "storyId": "US06",
+        "designLinks": [
+          {
+            "label": "Desktop web / 08 Report Expired / Unknown State",
+            "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1870"
+          }
+        ]
+      },
+      {
+        "storyId": "US07",
+        "designLinks": [
+          {
+            "label": "Desktop web / 13 Zone / Submitted example",
+            "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2267"
+          },
+          {
+            "label": "Desktop web / 11 Verification / Blocked",
+            "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2161"
+          }
+        ]
+      },
+      {
+        "storyId": "US08",
+        "designLinks": [
+          {
+            "label": "Desktop web / 11 Verification / Blocked",
+            "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2161"
+          },
+          {
+            "label": "Desktop web / 08 Report Expired / Unknown State",
+            "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1870"
+          }
+        ]
+      },
+      {
+        "storyId": "US09",
+        "designLinks": [
+          {
+            "label": "Desktop web / 12 Optional sampling / Consent and fallback",
+            "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2214"
+          },
+          {
+            "label": "Desktop web / 04 Submit Noise and Outlet Report",
+            "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1635"
+          }
+        ]
+      },
+      {
+        "storyId": "US10",
+        "designLinks": [
+          {
+            "label": "Desktop web / 12 Optional sampling / Consent and fallback",
+            "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2214"
+          },
+          {
+            "label": "Desktop web / 04 Submit Noise and Outlet Report",
+            "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1635"
+          }
+        ]
+      },
+      {
+        "storyId": "US11",
+        "designLinks": [
+          {
+            "label": "Desktop web / 12 Optional sampling / Consent and fallback",
+            "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2214"
+          },
+          {
+            "label": "Desktop web / 04 Submit Noise and Outlet Report",
+            "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1635"
+          }
+        ]
+      },
+      {
+        "storyId": "US12",
+        "designLinks": [
+          {
+            "label": "Desktop web / 01 Landing Page",
+            "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1377"
+          },
+          {
+            "label": "Complete editable Figma file",
+            "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb"
+          }
+        ]
+      }
+    ],
+    "note": "Assistant-created editable draft; original acceptance unverified; team review pending."
+  }
+}
