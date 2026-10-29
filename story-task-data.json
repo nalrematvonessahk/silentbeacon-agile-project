@@ -1,0 +1,398 @@
+{
+  "preparedDate": "2026-10-29",
+  "source": "SilentBeacon_Agile_Project_Plan_SE2416.docx",
+  "dueTimeConvention": "23:59 Asia/Yekaterinburg UTC+5 at sprint end; assistant administrative convention, not source commitment",
+  "schedule": {
+    "1": {
+      "start": "2026-10-26",
+      "end": "2026-10-31",
+      "due": "2026-10-31T18:59:00.000Z",
+      "goal": "A student can find a pilot zone using current manual noise and outlet reports."
+    },
+    "2": {
+      "start": "2026-11-01",
+      "end": "2026-11-06",
+      "due": "2026-11-06T18:59:00.000Z",
+      "goal": "Trustworthy, recent reports."
+    },
+    "3": {
+      "start": "2026-11-07",
+      "end": "2026-11-12",
+      "due": "2026-11-12T18:59:00.000Z",
+      "goal": "Voluntary noise estimation without audio storage or upload."
+    }
+  },
+  "stories": [
+    {
+      "id": "US01",
+      "title": "Selectable campus floor map",
+      "sprint": 1,
+      "points": 5,
+      "priority": "Must",
+      "proposedOwner": "Merey Amangeldi",
+      "story": "As a student, I want a floor map to locate study zones.",
+      "acceptance": "Accept when all pilot zones can be selected on the correct floor and opened by keyboard.",
+      "tasks": [
+        "Prepare a labeled schematic with stable zone IDs and two floor views",
+        "Connect zone selection to the Study Zone Details screen",
+        "Document keyboard navigation intent and inspect desktop and 360px layouts",
+        "Obtain second-member review and attach dated evidence before any Done decision"
+      ],
+      "scope": "Prototype represents zone selection; actual approved campus layout and browser keyboard implementation are not proven by Figma.",
+      "status": "Planned",
+      "description": "## User story\nAs a student, I want a floor map to locate study zones.\n\n## Original acceptance criteria — not yet verified\nAccept when all pilot zones can be selected on the correct floor and opened by keyboard.\n\n## Planning metadata\n- Sprint 1: 2026-10-26–2026-10-31, 2026 schedule supplied by the user.\n- Story points: 5 SP. Priority: Must.\n- Responsible coordination contact (PROPOSED): Merey Amangeldi; pending Developers' agreement. The source assigns sprint work-package leads, not individual story owners. No team acceptance or platform membership is implied.\n- Due: 2026-10-31 at 23:59 Asia/Yekaterinburg (UTC+5); administrative end-of-sprint convention, not a source time commitment.\n- Sprint goal from source: A student can find a pilot zone using current manual noise and outlet reports.\n- Status: Planned. Placed in Sprint Backlog as the source forecast; team commitment is not recorded.\n\n## Prototype scope and evidence boundary\nPrototype represents zone selection; actual approved campus layout and browser keyboard implementation are not proven by Figma.\nAll campus reports are demonstration data. No physical IoT sensors. No completed implementation, research, tests or meetings are claimed.\n\n## Source and changes\nSilentBeacon_Agile_Project_Plan_SE2416.docx, §§3.3–3.4 and sprint task tables. Original 21 SP per sprint retained. The user's six-day sprint dates and prototype-only scope replace the proposed six-week delivery calendar. Original 120 person-hours per two-week sprint is not a valid confirmed six-day capacity; team reforecast required. Final defense: 2026-11-13.\n\n## Checklist policy\nTasks below are proposed prototype work derived from this story, not copied source task estimates. All remain unchecked until evidence is attached and reviewed. Original acceptance criteria are retained and must not be marked satisfied merely by simulated UI.\n\n## Draft design evidence — 29 October 2026\nAssistant-created editable design draft; original acceptance remains unverified and team review is pending. These links do not imply story or checklist completion. Report, verification, expiry, sampling and analytics examples are simulations.\n\n- [Desktop web / 02 Campus Floor Map](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1435)\n- [Desktop web / 03 Study Zone Details](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1575)",
+      "designLinks": [
+        {
+          "label": "Desktop web / 02 Campus Floor Map",
+          "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1435"
+        },
+        {
+          "label": "Desktop web / 03 Study Zone Details",
+          "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1575"
+        }
+      ]
+    },
+    {
+      "id": "US02",
+      "title": "Manual noise and outlet reports",
+      "sprint": 1,
+      "points": 5,
+      "priority": "Must",
+      "proposedOwner": "Askhat Rakhmetollayev",
+      "story": "As a contributor, I want to report noise and outlets.",
+      "acceptance": "Accept when valid categories save, invalid values fail and zone details show the submitted values.",
+      "tasks": [
+        "Design Quiet / Moderate / Loud and Available / None available / Unknown controls",
+        "Connect manual submission to visibly simulated verification and updated details",
+        "Prepare invalid-input and unavailable-outlet demonstration cases",
+        "Obtain second-member review and attach dated evidence before any Done decision"
+      ],
+      "scope": "Prototype simulates submission and updated details; persistence and server validation remain unverified.",
+      "status": "Planned",
+      "description": "## User story\nAs a contributor, I want to report noise and outlets.\n\n## Original acceptance criteria — not yet verified\nAccept when valid categories save, invalid values fail and zone details show the submitted values.\n\n## Planning metadata\n- Sprint 1: 2026-10-26–2026-10-31, 2026 schedule supplied by the user.\n- Story points: 5 SP. Priority: Must.\n- Responsible coordination contact (PROPOSED): Askhat Rakhmetollayev; pending Developers' agreement. The source assigns sprint work-package leads, not individual story owners. No team acceptance or platform membership is implied.\n- Due: 2026-10-31 at 23:59 Asia/Yekaterinburg (UTC+5); administrative end-of-sprint convention, not a source time commitment.\n- Sprint goal from source: A student can find a pilot zone using current manual noise and outlet reports.\n- Status: Planned. Placed in Sprint Backlog as the source forecast; team commitment is not recorded.\n\n## Prototype scope and evidence boundary\nPrototype simulates submission and updated details; persistence and server validation remain unverified.\nAll campus reports are demonstration data. No physical IoT sensors. No completed implementation, research, tests or meetings are claimed.\n\n## Source and changes\nSilentBeacon_Agile_Project_Plan_SE2416.docx, §§3.3–3.4 and sprint task tables. Original 21 SP per sprint retained. The user's six-day sprint dates and prototype-only scope replace the proposed six-week delivery calendar. Original 120 person-hours per two-week sprint is not a valid confirmed six-day capacity; team reforecast required. Final defense: 2026-11-13.\n\n## Checklist policy\nTasks below are proposed prototype work derived from this story, not copied source task estimates. All remain unchecked until evidence is attached and reviewed. Original acceptance criteria are retained and must not be marked satisfied merely by simulated UI.\n\n## Draft design evidence — 29 October 2026\nAssistant-created editable design draft; original acceptance remains unverified and team review is pending. These links do not imply story or checklist completion. Report, verification, expiry, sampling and analytics examples are simulations.\n\n- [Desktop web / 04 Submit Noise and Outlet Report](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1635)\n- [Desktop web / 05 Report Verification Status](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1702)\n- [Desktop web / 13 Zone / Submitted example](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2267)",
+      "designLinks": [
+        {
+          "label": "Desktop web / 04 Submit Noise and Outlet Report",
+          "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1635"
+        },
+        {
+          "label": "Desktop web / 05 Report Verification Status",
+          "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1702"
+        },
+        {
+          "label": "Desktop web / 13 Zone / Submitted example",
+          "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2267"
+        }
+      ]
+    },
+    {
+      "id": "US03",
+      "title": "Quiet zones with available power",
+      "sprint": 1,
+      "points": 5,
+      "priority": "Must",
+      "proposedOwner": "Merey Amangeldi",
+      "story": "As an interview candidate, I want quiet zones with power.",
+      "acceptance": "Accept when the combined filter includes only Quiet zones with Available outlets and explains an empty result.",
+      "tasks": [
+        "Create combined Quiet + Available outlets filter state",
+        "Create matching-results and empty-results prototype views",
+        "Inspect examples to exclude Moderate, Loud, Unknown and expired reports",
+        "Obtain second-member review and attach dated evidence before any Done decision"
+      ],
+      "scope": "Prototype shows filter outcomes with demonstration data; executable filtering tests remain unverified.",
+      "status": "Planned",
+      "description": "## User story\nAs an interview candidate, I want quiet zones with power.\n\n## Original acceptance criteria — not yet verified\nAccept when the combined filter includes only Quiet zones with Available outlets and explains an empty result.\n\n## Planning metadata\n- Sprint 1: 2026-10-26–2026-10-31, 2026 schedule supplied by the user.\n- Story points: 5 SP. Priority: Must.\n- Responsible coordination contact (PROPOSED): Merey Amangeldi; pending Developers' agreement. The source assigns sprint work-package leads, not individual story owners. No team acceptance or platform membership is implied.\n- Due: 2026-10-31 at 23:59 Asia/Yekaterinburg (UTC+5); administrative end-of-sprint convention, not a source time commitment.\n- Sprint goal from source: A student can find a pilot zone using current manual noise and outlet reports.\n- Status: Planned. Placed in Sprint Backlog as the source forecast; team commitment is not recorded.\n\n## Prototype scope and evidence boundary\nPrototype shows filter outcomes with demonstration data; executable filtering tests remain unverified.\nAll campus reports are demonstration data. No physical IoT sensors. No completed implementation, research, tests or meetings are claimed.\n\n## Source and changes\nSilentBeacon_Agile_Project_Plan_SE2416.docx, §§3.3–3.4 and sprint task tables. Original 21 SP per sprint retained. The user's six-day sprint dates and prototype-only scope replace the proposed six-week delivery calendar. Original 120 person-hours per two-week sprint is not a valid confirmed six-day capacity; team reforecast required. Final defense: 2026-11-13.\n\n## Checklist policy\nTasks below are proposed prototype work derived from this story, not copied source task estimates. All remain unchecked until evidence is attached and reviewed. Original acceptance criteria are retained and must not be marked satisfied merely by simulated UI.\n\n## Draft design evidence — 29 October 2026\nAssistant-created editable design draft; original acceptance remains unverified and team review is pending. These links do not imply story or checklist completion. Report, verification, expiry, sampling and analytics examples are simulations.\n\n- [Desktop web / 09 Map / Quiet and outlet filter](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1927)\n- [Desktop web / 10 Map / Floor 2 empty results](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2012)",
+      "designLinks": [
+        {
+          "label": "Desktop web / 09 Map / Quiet and outlet filter",
+          "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1927"
+        },
+        {
+          "label": "Desktop web / 10 Map / Floor 2 empty results",
+          "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2012"
+        }
+      ]
+    },
+    {
+      "id": "US04",
+      "title": "Readable responsive status details",
+      "sprint": 1,
+      "points": 6,
+      "priority": "Must",
+      "proposedOwner": "Merey Amangeldi",
+      "story": "As a visitor, I want readable status details.",
+      "acceptance": "Accept when the map works at 360-pixel width and shows category text, report time and an Unknown state.",
+      "tasks": [
+        "Create desktop and 360px web layouts with text category labels",
+        "Show noise and outlet report timestamps and separate Unknown states",
+        "Inspect legibility, focus design and non-color status cues",
+        "Obtain second-member review and attach dated evidence before any Done decision"
+      ],
+      "scope": "Responsive Figma frames demonstrate intent; runtime accessibility and browser checks are not completed.",
+      "status": "Planned",
+      "description": "## User story\nAs a visitor, I want readable status details.\n\n## Original acceptance criteria — not yet verified\nAccept when the map works at 360-pixel width and shows category text, report time and an Unknown state.\n\n## Planning metadata\n- Sprint 1: 2026-10-26–2026-10-31, 2026 schedule supplied by the user.\n- Story points: 6 SP. Priority: Must.\n- Responsible coordination contact (PROPOSED): Merey Amangeldi; pending Developers' agreement. The source assigns sprint work-package leads, not individual story owners. No team acceptance or platform membership is implied.\n- Due: 2026-10-31 at 23:59 Asia/Yekaterinburg (UTC+5); administrative end-of-sprint convention, not a source time commitment.\n- Sprint goal from source: A student can find a pilot zone using current manual noise and outlet reports.\n- Status: Planned. Placed in Sprint Backlog as the source forecast; team commitment is not recorded.\n\n## Prototype scope and evidence boundary\nResponsive Figma frames demonstrate intent; runtime accessibility and browser checks are not completed.\nAll campus reports are demonstration data. No physical IoT sensors. No completed implementation, research, tests or meetings are claimed.\n\n## Source and changes\nSilentBeacon_Agile_Project_Plan_SE2416.docx, §§3.3–3.4 and sprint task tables. Original 21 SP per sprint retained. The user's six-day sprint dates and prototype-only scope replace the proposed six-week delivery calendar. Original 120 person-hours per two-week sprint is not a valid confirmed six-day capacity; team reforecast required. Final defense: 2026-11-13.\n\n## Checklist policy\nTasks below are proposed prototype work derived from this story, not copied source task estimates. All remain unchecked until evidence is attached and reviewed. Original acceptance criteria are retained and must not be marked satisfied merely by simulated UI.\n\n## Draft design evidence — 29 October 2026\nAssistant-created editable design draft; original acceptance remains unverified and team review is pending. These links do not imply story or checklist completion. Report, verification, expiry, sampling and analytics examples are simulations.\n\n- [Desktop web / 02 Campus Floor Map](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1435)\n- [Desktop web / 03 Study Zone Details](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1575)\n- [Desktop web / 08 Report Expired / Unknown State](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1870)\n- [Mobile web / 02 Campus Floor Map](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2468)\n- [Mobile web / 03 Study Zone Details](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2617)\n- [Mobile web / 08 Report Expired / Unknown State](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2912)",
+      "designLinks": [
+        {
+          "label": "Desktop web / 02 Campus Floor Map",
+          "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1435"
+        },
+        {
+          "label": "Desktop web / 03 Study Zone Details",
+          "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1575"
+        },
+        {
+          "label": "Desktop web / 08 Report Expired / Unknown State",
+          "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1870"
+        },
+        {
+          "label": "Mobile web / 02 Campus Floor Map",
+          "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2468"
+        },
+        {
+          "label": "Mobile web / 03 Study Zone Details",
+          "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2617"
+        },
+        {
+          "label": "Mobile web / 08 Report Expired / Unknown State",
+          "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2912"
+        }
+      ]
+    },
+    {
+      "id": "US05",
+      "title": "Eligible campus contributions",
+      "sprint": 2,
+      "points": 8,
+      "priority": "Must",
+      "proposedOwner": "Tamerlan Khassenov",
+      "story": "As a user, I want eligible campus contributions.",
+      "acceptance": "Accept when the server allows a verified campus request, rejects an external request and ignores spoofed client eligibility.",
+      "tasks": [
+        "Document campus eligibility policy and unconfirmed campus IT dependency",
+        "Design clearly simulated eligible, checking and blocked states",
+        "Record server allow/reject/spoof cases as deferred implementation verification",
+        "Obtain second-member review and attach dated evidence before any Done decision"
+      ],
+      "scope": "Only verification-state UI is in prototype scope. No server eligibility enforcement or real campus verification is claimed.",
+      "status": "Planned",
+      "description": "## User story\nAs a user, I want eligible campus contributions.\n\n## Original acceptance criteria — not yet verified\nAccept when the server allows a verified campus request, rejects an external request and ignores spoofed client eligibility.\n\n## Planning metadata\n- Sprint 2: 2026-11-01–2026-11-06, 2026 schedule supplied by the user.\n- Story points: 8 SP. Priority: Must.\n- Responsible coordination contact (PROPOSED): Tamerlan Khassenov; pending Developers' agreement. The source assigns sprint work-package leads, not individual story owners. No team acceptance or platform membership is implied.\n- Due: 2026-11-06 at 23:59 Asia/Yekaterinburg (UTC+5); administrative end-of-sprint convention, not a source time commitment.\n- Sprint goal from source: Trustworthy, recent reports.\n- Status: Planned. Future sprint forecast in Product Backlog.\n\n## Prototype scope and evidence boundary\nOnly verification-state UI is in prototype scope. No server eligibility enforcement or real campus verification is claimed.\nAll campus reports are demonstration data. No physical IoT sensors. No completed implementation, research, tests or meetings are claimed.\n\n## Source and changes\nSilentBeacon_Agile_Project_Plan_SE2416.docx, §§3.3–3.4 and sprint task tables. Original 21 SP per sprint retained. The user's six-day sprint dates and prototype-only scope replace the proposed six-week delivery calendar. Original 120 person-hours per two-week sprint is not a valid confirmed six-day capacity; team reforecast required. Final defense: 2026-11-13.\n\n## Checklist policy\nTasks below are proposed prototype work derived from this story, not copied source task estimates. All remain unchecked until evidence is attached and reviewed. Original acceptance criteria are retained and must not be marked satisfied merely by simulated UI.\n\n## Draft design evidence — 29 October 2026\nAssistant-created editable design draft; original acceptance remains unverified and team review is pending. These links do not imply story or checklist completion. Report, verification, expiry, sampling and analytics examples are simulations.\n\n- [Desktop web / 05 Report Verification Status](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1702)\n- [Desktop web / 11 Verification / Blocked](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2161)",
+      "designLinks": [
+        {
+          "label": "Desktop web / 05 Report Verification Status",
+          "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1702"
+        },
+        {
+          "label": "Desktop web / 11 Verification / Blocked",
+          "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2161"
+        }
+      ]
+    },
+    {
+      "id": "US06",
+      "title": "45-minute report expiry",
+      "sprint": 2,
+      "points": 5,
+      "priority": "Must",
+      "proposedOwner": "Tamerlan Khassenov",
+      "story": "As a student, I want old reports removed from live results.",
+      "acceptance": "Accept when a report expires at age 45 minutes on both map and filter, using server time.",
+      "tasks": [
+        "Design 44:59 fresh and 45:00 expired demonstration states",
+        "Show independent noise/outlet expiry and Unknown replacement on map",
+        "Show an expired report excluded from combined filter results",
+        "Obtain second-member review and attach dated evidence before any Done decision"
+      ],
+      "scope": "Figma simulates age and expiry. Authoritative server time and automated expiry remain unverified.",
+      "status": "Planned",
+      "description": "## User story\nAs a student, I want old reports removed from live results.\n\n## Original acceptance criteria — not yet verified\nAccept when a report expires at age 45 minutes on both map and filter, using server time.\n\n## Planning metadata\n- Sprint 2: 2026-11-01–2026-11-06, 2026 schedule supplied by the user.\n- Story points: 5 SP. Priority: Must.\n- Responsible coordination contact (PROPOSED): Tamerlan Khassenov; pending Developers' agreement. The source assigns sprint work-package leads, not individual story owners. No team acceptance or platform membership is implied.\n- Due: 2026-11-06 at 23:59 Asia/Yekaterinburg (UTC+5); administrative end-of-sprint convention, not a source time commitment.\n- Sprint goal from source: Trustworthy, recent reports.\n- Status: Planned. Future sprint forecast in Product Backlog.\n\n## Prototype scope and evidence boundary\nFigma simulates age and expiry. Authoritative server time and automated expiry remain unverified.\nAll campus reports are demonstration data. No physical IoT sensors. No completed implementation, research, tests or meetings are claimed.\n\n## Source and changes\nSilentBeacon_Agile_Project_Plan_SE2416.docx, §§3.3–3.4 and sprint task tables. Original 21 SP per sprint retained. The user's six-day sprint dates and prototype-only scope replace the proposed six-week delivery calendar. Original 120 person-hours per two-week sprint is not a valid confirmed six-day capacity; team reforecast required. Final defense: 2026-11-13.\n\n## Checklist policy\nTasks below are proposed prototype work derived from this story, not copied source task estimates. All remain unchecked until evidence is attached and reviewed. Original acceptance criteria are retained and must not be marked satisfied merely by simulated UI.\n\n## Draft design evidence — 29 October 2026\nAssistant-created editable design draft; original acceptance remains unverified and team review is pending. These links do not imply story or checklist completion. Report, verification, expiry, sampling and analytics examples are simulations.\n\n- [Desktop web / 08 Report Expired / Unknown State](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1870)",
+      "designLinks": [
+        {
+          "label": "Desktop web / 08 Report Expired / Unknown State",
+          "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1870"
+        }
+      ]
+    },
+    {
+      "id": "US07",
+      "title": "Predictable report updates",
+      "sprint": 2,
+      "points": 5,
+      "priority": "Must",
+      "proposedOwner": "Tamerlan Khassenov",
+      "story": "As a user, I want predictable report updates.",
+      "acceptance": "Accept when the newest accepted report wins, repeated requests do not duplicate records and rate limits reject excess writes.",
+      "tasks": [
+        "Document latest-accepted-report rule and equal-time server sequence tie-break",
+        "Design duplicate-submission and rate-limit feedback examples",
+        "Prepare scenario checklist for newest, duplicate and excess report cases",
+        "Obtain second-member review and attach dated evidence before any Done decision"
+      ],
+      "scope": "The prototype depicts update/error states; atomic writes, idempotency and server rate limits are deferred.",
+      "status": "Planned",
+      "description": "## User story\nAs a user, I want predictable report updates.\n\n## Original acceptance criteria — not yet verified\nAccept when the newest accepted report wins, repeated requests do not duplicate records and rate limits reject excess writes.\n\n## Planning metadata\n- Sprint 2: 2026-11-01–2026-11-06, 2026 schedule supplied by the user.\n- Story points: 5 SP. Priority: Must.\n- Responsible coordination contact (PROPOSED): Tamerlan Khassenov; pending Developers' agreement. The source assigns sprint work-package leads, not individual story owners. No team acceptance or platform membership is implied.\n- Due: 2026-11-06 at 23:59 Asia/Yekaterinburg (UTC+5); administrative end-of-sprint convention, not a source time commitment.\n- Sprint goal from source: Trustworthy, recent reports.\n- Status: Planned. Future sprint forecast in Product Backlog.\n\n## Prototype scope and evidence boundary\nThe prototype depicts update/error states; atomic writes, idempotency and server rate limits are deferred.\nAll campus reports are demonstration data. No physical IoT sensors. No completed implementation, research, tests or meetings are claimed.\n\n## Source and changes\nSilentBeacon_Agile_Project_Plan_SE2416.docx, §§3.3–3.4 and sprint task tables. Original 21 SP per sprint retained. The user's six-day sprint dates and prototype-only scope replace the proposed six-week delivery calendar. Original 120 person-hours per two-week sprint is not a valid confirmed six-day capacity; team reforecast required. Final defense: 2026-11-13.\n\n## Checklist policy\nTasks below are proposed prototype work derived from this story, not copied source task estimates. All remain unchecked until evidence is attached and reviewed. Original acceptance criteria are retained and must not be marked satisfied merely by simulated UI.\n\n## Draft design evidence — 29 October 2026\nAssistant-created editable design draft; original acceptance remains unverified and team review is pending. These links do not imply story or checklist completion. Report, verification, expiry, sampling and analytics examples are simulations.\n\n- [Desktop web / 13 Zone / Submitted example](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2267)\n- [Desktop web / 11 Verification / Blocked](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2161)",
+      "designLinks": [
+        {
+          "label": "Desktop web / 13 Zone / Submitted example",
+          "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2267"
+        },
+        {
+          "label": "Desktop web / 11 Verification / Blocked",
+          "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2161"
+        }
+      ]
+    },
+    {
+      "id": "US08",
+      "title": "Eligibility and error guidance",
+      "sprint": 2,
+      "points": 3,
+      "priority": "Should",
+      "proposedOwner": "Askhat Rakhmetollayev",
+      "story": "As a contributor, I want clear eligibility and error messages.",
+      "acceptance": "Accept when blocked and expired states explain the next action and remain usable without color cues.",
+      "tasks": [
+        "Create blocked and expired messages with text and icons",
+        "Connect retry, return to map and submit fresh report actions",
+        "Inspect each error state for an explicit next step without relying on color",
+        "Obtain second-member review and attach dated evidence before any Done decision"
+      ],
+      "scope": "UI/error navigation is represented; real network and expiry enforcement remain unverified.",
+      "status": "Planned",
+      "description": "## User story\nAs a contributor, I want clear eligibility and error messages.\n\n## Original acceptance criteria — not yet verified\nAccept when blocked and expired states explain the next action and remain usable without color cues.\n\n## Planning metadata\n- Sprint 2: 2026-11-01–2026-11-06, 2026 schedule supplied by the user.\n- Story points: 3 SP. Priority: Should.\n- Responsible coordination contact (PROPOSED): Askhat Rakhmetollayev; pending Developers' agreement. The source assigns sprint work-package leads, not individual story owners. No team acceptance or platform membership is implied.\n- Due: 2026-11-06 at 23:59 Asia/Yekaterinburg (UTC+5); administrative end-of-sprint convention, not a source time commitment.\n- Sprint goal from source: Trustworthy, recent reports.\n- Status: Planned. Future sprint forecast in Product Backlog.\n\n## Prototype scope and evidence boundary\nUI/error navigation is represented; real network and expiry enforcement remain unverified.\nAll campus reports are demonstration data. No physical IoT sensors. No completed implementation, research, tests or meetings are claimed.\n\n## Source and changes\nSilentBeacon_Agile_Project_Plan_SE2416.docx, §§3.3–3.4 and sprint task tables. Original 21 SP per sprint retained. The user's six-day sprint dates and prototype-only scope replace the proposed six-week delivery calendar. Original 120 person-hours per two-week sprint is not a valid confirmed six-day capacity; team reforecast required. Final defense: 2026-11-13.\n\n## Checklist policy\nTasks below are proposed prototype work derived from this story, not copied source task estimates. All remain unchecked until evidence is attached and reviewed. Original acceptance criteria are retained and must not be marked satisfied merely by simulated UI.\n\n## Draft design evidence — 29 October 2026\nAssistant-created editable design draft; original acceptance remains unverified and team review is pending. These links do not imply story or checklist completion. Report, verification, expiry, sampling and analytics examples are simulations.\n\n- [Desktop web / 11 Verification / Blocked](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2161)\n- [Desktop web / 08 Report Expired / Unknown State](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1870)",
+      "designLinks": [
+        {
+          "label": "Desktop web / 11 Verification / Blocked",
+          "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2161"
+        },
+        {
+          "label": "Desktop web / 08 Report Expired / Unknown State",
+          "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1870"
+        }
+      ]
+    },
+    {
+      "id": "US09",
+      "title": "Optional three-second noise estimate",
+      "sprint": 3,
+      "points": 8,
+      "priority": "Should",
+      "proposedOwner": "Askhat Rakhmetollayev",
+      "story": "As a contributor, I want a three-second noise estimate.",
+      "acceptance": "Accept when an explicit tap starts local processing after consent, then stops every microphone track.",
+      "tasks": [
+        "Design optional consent and three-second sampling progress as simulations",
+        "Connect explicit start, cancel and manual-report fallback states",
+        "Document track cleanup cases as deferred browser implementation checks",
+        "Obtain second-member review and attach dated evidence before any Done decision"
+      ],
+      "scope": "No microphone is activated by the prototype; processing and track cleanup acceptance remains unverified.",
+      "status": "Planned",
+      "description": "## User story\nAs a contributor, I want a three-second noise estimate.\n\n## Original acceptance criteria — not yet verified\nAccept when an explicit tap starts local processing after consent, then stops every microphone track.\n\n## Planning metadata\n- Sprint 3: 2026-11-07–2026-11-12, 2026 schedule supplied by the user.\n- Story points: 8 SP. Priority: Should.\n- Responsible coordination contact (PROPOSED): Askhat Rakhmetollayev; pending Developers' agreement. The source assigns sprint work-package leads, not individual story owners. No team acceptance or platform membership is implied.\n- Due: 2026-11-12 at 23:59 Asia/Yekaterinburg (UTC+5); administrative end-of-sprint convention, not a source time commitment.\n- Sprint goal from source: Voluntary noise estimation without audio storage or upload.\n- Status: Planned. Future sprint forecast in Product Backlog.\n\n## Prototype scope and evidence boundary\nNo microphone is activated by the prototype; processing and track cleanup acceptance remains unverified.\nAll campus reports are demonstration data. No physical IoT sensors. No completed implementation, research, tests or meetings are claimed.\n\n## Source and changes\nSilentBeacon_Agile_Project_Plan_SE2416.docx, §§3.3–3.4 and sprint task tables. Original 21 SP per sprint retained. The user's six-day sprint dates and prototype-only scope replace the proposed six-week delivery calendar. Original 120 person-hours per two-week sprint is not a valid confirmed six-day capacity; team reforecast required. Final defense: 2026-11-13.\n\n## Checklist policy\nTasks below are proposed prototype work derived from this story, not copied source task estimates. All remain unchecked until evidence is attached and reviewed. Original acceptance criteria are retained and must not be marked satisfied merely by simulated UI.\n\n## Draft design evidence — 29 October 2026\nAssistant-created editable design draft; original acceptance remains unverified and team review is pending. These links do not imply story or checklist completion. Report, verification, expiry, sampling and analytics examples are simulations.\n\n- [Desktop web / 12 Optional sampling / Consent and fallback](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2214)\n- [Desktop web / 04 Submit Noise and Outlet Report](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1635)",
+      "designLinks": [
+        {
+          "label": "Desktop web / 12 Optional sampling / Consent and fallback",
+          "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2214"
+        },
+        {
+          "label": "Desktop web / 04 Submit Noise and Outlet Report",
+          "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1635"
+        }
+      ]
+    },
+    {
+      "id": "US10",
+      "title": "Sampling privacy and manual fallback",
+      "sprint": 3,
+      "points": 5,
+      "priority": "Must",
+      "proposedOwner": "Asanali Yessenbekov",
+      "story": "As a privacy-conscious user, I want control over sampling.",
+      "acceptance": "Accept when denial or cancellation leaves manual reporting available and network inspection finds no audio upload.",
+      "tasks": [
+        "Connect permission-denied and cancellation states to manual reporting",
+        "Add clear no-recording/no-upload design requirements and simulation label",
+        "Prepare network-inspection and permission test record without claiming results",
+        "Obtain second-member review and attach dated evidence before any Done decision"
+      ],
+      "scope": "Consent/fallback are prototype interactions; actual no-audio-upload and device permission behavior require implementation evidence.",
+      "status": "Planned",
+      "description": "## User story\nAs a privacy-conscious user, I want control over sampling.\n\n## Original acceptance criteria — not yet verified\nAccept when denial or cancellation leaves manual reporting available and network inspection finds no audio upload.\n\n## Planning metadata\n- Sprint 3: 2026-11-07–2026-11-12, 2026 schedule supplied by the user.\n- Story points: 5 SP. Priority: Must.\n- Responsible coordination contact (PROPOSED): Asanali Yessenbekov; pending Developers' agreement. The source assigns sprint work-package leads, not individual story owners. No team acceptance or platform membership is implied.\n- Due: 2026-11-12 at 23:59 Asia/Yekaterinburg (UTC+5); administrative end-of-sprint convention, not a source time commitment.\n- Sprint goal from source: Voluntary noise estimation without audio storage or upload.\n- Status: Planned. Future sprint forecast in Product Backlog.\n\n## Prototype scope and evidence boundary\nConsent/fallback are prototype interactions; actual no-audio-upload and device permission behavior require implementation evidence.\nAll campus reports are demonstration data. No physical IoT sensors. No completed implementation, research, tests or meetings are claimed.\n\n## Source and changes\nSilentBeacon_Agile_Project_Plan_SE2416.docx, §§3.3–3.4 and sprint task tables. Original 21 SP per sprint retained. The user's six-day sprint dates and prototype-only scope replace the proposed six-week delivery calendar. Original 120 person-hours per two-week sprint is not a valid confirmed six-day capacity; team reforecast required. Final defense: 2026-11-13.\n\n## Checklist policy\nTasks below are proposed prototype work derived from this story, not copied source task estimates. All remain unchecked until evidence is attached and reviewed. Original acceptance criteria are retained and must not be marked satisfied merely by simulated UI.\n\n## Draft design evidence — 29 October 2026\nAssistant-created editable design draft; original acceptance remains unverified and team review is pending. These links do not imply story or checklist completion. Report, verification, expiry, sampling and analytics examples are simulations.\n\n- [Desktop web / 12 Optional sampling / Consent and fallback](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2214)\n- [Desktop web / 04 Submit Noise and Outlet Report](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1635)",
+      "designLinks": [
+        {
+          "label": "Desktop web / 12 Optional sampling / Consent and fallback",
+          "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2214"
+        },
+        {
+          "label": "Desktop web / 04 Submit Noise and Outlet Report",
+          "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1635"
+        }
+      ]
+    },
+    {
+      "id": "US11",
+      "title": "Understandable uncalibrated estimate",
+      "sprint": 3,
+      "points": 5,
+      "priority": "Should",
+      "proposedOwner": "Aldiyar Gaisa",
+      "story": "As a student, I want an understandable estimate.",
+      "acceptance": "Accept when pilot devices are compared with observer labels and the interface identifies an uncalibrated estimate.",
+      "tasks": [
+        "Label estimated categories as uncalibrated and ask for confirmation",
+        "Prepare comparison protocol for 30 samples across three device models",
+        "Prepare blank observer/device result table; do not invent measurements",
+        "Obtain second-member review and attach dated evidence before any Done decision"
+      ],
+      "scope": "The estimate is simulated. Observer comparisons, device calibration and 80% target achievement are not completed.",
+      "status": "Planned",
+      "description": "## User story\nAs a student, I want an understandable estimate.\n\n## Original acceptance criteria — not yet verified\nAccept when pilot devices are compared with observer labels and the interface identifies an uncalibrated estimate.\n\n## Planning metadata\n- Sprint 3: 2026-11-07–2026-11-12, 2026 schedule supplied by the user.\n- Story points: 5 SP. Priority: Should.\n- Responsible coordination contact (PROPOSED): Aldiyar Gaisa; pending Developers' agreement. The source assigns sprint work-package leads, not individual story owners. No team acceptance or platform membership is implied.\n- Due: 2026-11-12 at 23:59 Asia/Yekaterinburg (UTC+5); administrative end-of-sprint convention, not a source time commitment.\n- Sprint goal from source: Voluntary noise estimation without audio storage or upload.\n- Status: Planned. Future sprint forecast in Product Backlog.\n\n## Prototype scope and evidence boundary\nThe estimate is simulated. Observer comparisons, device calibration and 80% target achievement are not completed.\nAll campus reports are demonstration data. No physical IoT sensors. No completed implementation, research, tests or meetings are claimed.\n\n## Source and changes\nSilentBeacon_Agile_Project_Plan_SE2416.docx, §§3.3–3.4 and sprint task tables. Original 21 SP per sprint retained. The user's six-day sprint dates and prototype-only scope replace the proposed six-week delivery calendar. Original 120 person-hours per two-week sprint is not a valid confirmed six-day capacity; team reforecast required. Final defense: 2026-11-13.\n\n## Checklist policy\nTasks below are proposed prototype work derived from this story, not copied source task estimates. All remain unchecked until evidence is attached and reviewed. Original acceptance criteria are retained and must not be marked satisfied merely by simulated UI.\n\n## Draft design evidence — 29 October 2026\nAssistant-created editable design draft; original acceptance remains unverified and team review is pending. These links do not imply story or checklist completion. Report, verification, expiry, sampling and analytics examples are simulations.\n\n- [Desktop web / 12 Optional sampling / Consent and fallback](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2214)\n- [Desktop web / 04 Submit Noise and Outlet Report](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1635)",
+      "designLinks": [
+        {
+          "label": "Desktop web / 12 Optional sampling / Consent and fallback",
+          "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-2214"
+        },
+        {
+          "label": "Desktop web / 04 Submit Noise and Outlet Report",
+          "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1635"
+        }
+      ]
+    },
+    {
+      "id": "US12",
+      "title": "Repeatable pilot release",
+      "sprint": 3,
+      "points": 3,
+      "priority": "Must",
+      "proposedOwner": "Asanali Yessenbekov",
+      "story": "As a maintainer, I want a repeatable pilot release.",
+      "acceptance": "Accept when the release passes the core reporting regression, has setup instructions and supports rollback.",
+      "tasks": [
+        "Document how to open and demonstrate the Figma prototype and repository",
+        "Prepare core reporting regression and release evidence checklist",
+        "Document restoration/version recovery and unresolved implementation criteria",
+        "Obtain second-member review and attach dated evidence before any Done decision"
+      ],
+      "scope": "Academic deliverable is a prototype, not the source plan's deployed pilot. Production regression and rollback criteria remain unverified.",
+      "status": "Planned",
+      "description": "## User story\nAs a maintainer, I want a repeatable pilot release.\n\n## Original acceptance criteria — not yet verified\nAccept when the release passes the core reporting regression, has setup instructions and supports rollback.\n\n## Planning metadata\n- Sprint 3: 2026-11-07–2026-11-12, 2026 schedule supplied by the user.\n- Story points: 3 SP. Priority: Must.\n- Responsible coordination contact (PROPOSED): Asanali Yessenbekov; pending Developers' agreement. The source assigns sprint work-package leads, not individual story owners. No team acceptance or platform membership is implied.\n- Due: 2026-11-12 at 23:59 Asia/Yekaterinburg (UTC+5); administrative end-of-sprint convention, not a source time commitment.\n- Sprint goal from source: Voluntary noise estimation without audio storage or upload.\n- Status: Planned. Future sprint forecast in Product Backlog.\n\n## Prototype scope and evidence boundary\nAcademic deliverable is a prototype, not the source plan's deployed pilot. Production regression and rollback criteria remain unverified.\nAll campus reports are demonstration data. No physical IoT sensors. No completed implementation, research, tests or meetings are claimed.\n\n## Source and changes\nSilentBeacon_Agile_Project_Plan_SE2416.docx, §§3.3–3.4 and sprint task tables. Original 21 SP per sprint retained. The user's six-day sprint dates and prototype-only scope replace the proposed six-week delivery calendar. Original 120 person-hours per two-week sprint is not a valid confirmed six-day capacity; team reforecast required. Final defense: 2026-11-13.\n\n## Checklist policy\nTasks below are proposed prototype work derived from this story, not copied source task estimates. All remain unchecked until evidence is attached and reviewed. Original acceptance criteria are retained and must not be marked satisfied merely by simulated UI.\n\n## Draft design evidence — 29 October 2026\nAssistant-created editable design draft; original acceptance remains unverified and team review is pending. These links do not imply story or checklist completion. Report, verification, expiry, sampling and analytics examples are simulations.\n\n- [Desktop web / 01 Landing Page](https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1377)\n- [Complete editable Figma file](https://www.figma.com/design/spEnordZysj72nrb1p28kb)\nLocal documentation: C:/aitu/pm/silentbeacon-agile-project/README.md and docs/. These are local files; no GitHub repository is published.\n",
+      "designLinks": [
+        {
+          "label": "Desktop web / 01 Landing Page",
+          "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb?node-id=2-1377"
+        },
+        {
+          "label": "Complete editable Figma file",
+          "url": "https://www.figma.com/design/spEnordZysj72nrb1p28kb"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Per-story contacts are proposed; the source assigns sprint work-package leads.",
+    "All 48 tasks were created as native checklist items and remain incomplete.",
+    "Source implementation acceptance criteria are preserved, not claimed satisfied by Figma.",
+    "Native card-member assignment is not supported by the exposed write-card action schema; only Tamerlan was found in the workspace."
+  ],
+  "lastDesignLinksUpdatedAtUTC": "2026-10-29 18:09:57 UTC"
+}
