@@ -46,7 +46,7 @@ The source plan includes server enforcement, microphone processing, field studie
 - [Final defense evidence checklist](docs/evidence-checklist.md)
 - [Figma screen links, presentation guide and verification limits](design/README.md)
 - [Execution evidence summary](evidence/execution-summary.json)
-- [Editable defense presentation draft](deliverables/SilentBeacon_Defense_Draft.pptx)
+- [Editable defense presentation draft](SilentBeacon_Defense_Draft.pptx)
 
 ## Workflow
 
