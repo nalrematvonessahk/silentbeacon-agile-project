@@ -11,6 +11,7 @@ The source is a proposed plan, not historical delivery evidence. The current use
 | C03 Board structure | Backlog, Ready, In progress, Review, Test, Done | Product Backlog, Sprint Backlog, To Do, In Progress, Review, Testing, Done | Use requested lists; source WIP suggestions remain three In Progress and two Review |
 | C04 Design extensions | No Social GPA or administrative analytics story among US01–US12 | Proposed Social GPA rewards and campus analytics screens | Record as additional design scope; rewards simulated and subject to approval; analytics demonstration data |
 | C05 Review schedule | Nov 8, Nov 22, Dec 6 | Align with shortened sprint ends | Proposed Oct 31, Nov 6, Nov 12; actual times and attendance pending |
+| C06 Demonstration format | Figma prototype with a limited Z01 scripted reporting journey | Supplement with a local interactive simulation covering ten schematic zones | Separate from the existing Figma file; no server, real reports or university policy. Browser visual and click-through review remains uncompleted; no story is marked Done by the simulation |
 
 ## Matters intentionally not rewritten
 

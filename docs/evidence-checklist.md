@@ -17,16 +17,17 @@ Prepared October 29, 2026. Defense: **November 13, 2026**. Status definitions ap
 | Sprint Goals | Completed — supported by actual evidence | [Source goals and prototype interpretations](sprint-plan.md); team confirmation of revised forecast remains planned |
 | Editable Figma screens and interaction wiring | Completed — supported by actual evidence | [Figma file](https://www.figma.com/design/spEnordZysj72nrb1p28kb): eight required views plus five supporting states at two web widths, 26 editable frames and 174 configured navigation reactions; visual inspection completed; [guide and verification limits](../design/README.md) |
 | Human Figma Present-mode and keyboard walkthrough | Planned | Browser interaction was unavailable; team must verify the actual presentation journey, keyboard behavior and usability. Structural reaction checks do not substitute for this |
+| Supplementary local interactive web demonstration | In Progress | Ten schematic zones and simulated reporting, filters and expiry are prepared. Seven model tests and a DOM-stub navigation test passed; visual and browser walkthrough verification was blocked by the local-preview access decision. This is separate from the Figma prototype |
 | Sprint Review records | Planned | [Templates](sprint-reviews.md) exist; real dates, attendees, findings and decisions still needed |
 | Retrospective records | Planned | [Templates](retrospectives.md) exist; actual discussion and improvement actions still needed |
 | Definition of Done document | Completed — supported by actual evidence | [Original standard and proposed prototype checklist](definition-of-done.md); team acceptance and completed checks remain planned |
 | Risks and changes documented | Completed — supported by actual evidence | [Risk register](risk-register.md) and [change log](change-log.md); mitigations are not thereby completed |
 | GitHub documentation files | Completed — supported by actual evidence | README plus twelve local documentation files; publication is a separate item |
 | GitHub repository setup | Completed — supported by actual evidence | [Private repository](https://github.com/nalrematvonessahk/silentbeacon-agile-project) created and verified in browser on October 29, 2026 |
-| GitHub repository publication | Completed — supported by actual evidence | User-approved README, twelve project documents, Figma design files, Trello data, evidence records, and defense draft committed to the private repository; review its commit history and files |
+| GitHub repository publication | Completed — supported by actual evidence | User-approved project documentation, design records, evidence and defense presentation were committed to the [private repository](https://github.com/nalrematvonessahk/silentbeacon-agile-project) and verified on October 29; later revisions were approved for upload; check the repository for the current files |
 | Communication preparation | Completed — supported by actual evidence | [Unsent templates and agendas](communication-plan.md); no messages or meetings asserted |
 | Final prototype demonstration | Planned | Rehearse real navigation, verify access, capture actual evidence, and explain remaining implementation criteria |
-| Defense presentation draft | Completed — supported by actual evidence | [Editable 10-slide draft](../SilentBeacon_Defense_Draft.pptx); real sprint results and team review remain to be added |
+| Defense presentation draft | Completed — supported by actual evidence | [Updated editable 10-slide draft](../SilentBeacon_Defense_Ready_Draft.pptx) with corrected GitHub status and speaker notes; real sprint results and team review remain to be added. This revision was approved for upload; verify its repository file and commit |
 
 ## Evidence to collect before defense
 
@@ -37,7 +38,7 @@ Prepared October 29, 2026. Defense: **November 13, 2026**. Status definitions ap
 - [x] Create and visually inspect all eight required Figma views in desktop and 360px web layouts, with reusable components and configured navigation reactions. Human Present-mode checks remain pending.
 - [x] Preserve visible labels for schematic layout, demonstration data and proposed simulated rewards in the inspected designs.
 - [ ] Record actual Reviews and Retrospectives with genuine feedback and agreed actions.
-- [x] Publish authorized documentation to the private GitHub repository and verify the repository, document listings, Trello/Figma links, and presentation location.
+- [x] Publish authorized documentation to the private GitHub repository and verify its file listings and principal links.
 - [ ] Run and document a rehearsal, including expiry, Unknown, empty results and report feedback.
 - [ ] List unfinished original implementation criteria and explain why a prototype does not prove server or audio behavior.
 

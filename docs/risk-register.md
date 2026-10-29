@@ -14,7 +14,7 @@ Prepared October 29, 2026. Source risks are retained below; additional risks are
 | R08 | Proposed Social GPA interpreted as approved university policy or earned rewards | High | Aldiyar / proposed | Show simulated and subject-to-approval label on rewards views and defense materials | Open; university approval not established |
 | R09 | Analytics mistaken for campus measurements | High | Merey / proposed | Put demonstration-data label next to metrics and charts; do not infer research findings | Open; design review pending |
 | R10 | Team access or owner mapping incomplete | Medium | Askhat / proposed | Verify account identities and request authorization before invitations/sharing; distinguish text contacts from native assignments | Open; only Tamerlan verified in Trello workspace |
-| R11 | GitHub publication depends on repository access | Medium | Tamerlan / proposed | Preserve local reviewable files and verify repository contents after authorized upload | Open at pre-upload snapshot; repository created and publication authorized; connected app could not access the new private repository |
+| R11 | Future GitHub updates depend on repository access and authorization | Medium | Tamerlan / proposed | Verify connected-app access or use the authenticated browser; seek authorization before publishing new material | Open; initial package published privately; connected app returned 404 despite reported access grant |
 | R12 | Defense lacks genuine reviews and retrospectives | High | Askhat / proposed | Hold real events on available dates, record actual attendees and outcomes, leave absent records unfilled | Open; templates are not event evidence |
 
 ## Updating risks

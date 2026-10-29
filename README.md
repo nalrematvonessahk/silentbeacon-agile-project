@@ -8,7 +8,7 @@ SilentBeacon is an academic, responsive web prototype for crowdsourced campus no
 
 Documentation prepared on **October 29, 2026**, from `SilentBeacon_Agile_Project_Plan_SE2416.docx` and the user's current execution brief. These documents record plans and templates, not evidence of past implementation, meetings, interviews, tests, or team approval. No user story is certified Done by this documentation.
 
-The private Trello board has been created and read back: **seven lists, twelve story cards, twelve native checklists and 48 unchecked proposed tasks**. Four Sprint 1 cards are in Sprint Backlog as a draft forecast; eight are in Product Backlog. Done is empty and no card due date is marked complete. The [verification record](evidence/trello-verification.json) and [story/task data](trello/story-task-data.json) preserve the actual setup evidence.
+The private Trello board has been created and read back: **seven lists, twelve story cards, twelve native checklists and 48 unchecked proposed tasks**. Four Sprint 1 cards are in Sprint Backlog as a draft forecast; eight are in Product Backlog. Done is empty and no card due date is marked complete. The [initial verification record](evidence/trello-verification.json) and [story/task data](trello/story-task-data.json) are historical setup snapshots. The [later board audit](evidence/trello-final-audit-2026-10-29.json) records the GitHub links added to all twelve stories.
 
 | Resource | Verified location |
 |---|---|
@@ -19,6 +19,8 @@ The private Trello board has been created and read back: **seven lists, twelve s
 The links above are real platform resources. No teammate invitations or sharing changes have been made. Do not publish or share resources without the user's authorization.
 
 Figma contains 26 editable frames with reusable components and semantic design tokens. The designs were visually inspected; prototype reactions were configured and inspected structurally. A human walkthrough in Present mode, keyboard checks and second-member approval remain pending. Report categories and submission outcomes are preset demonstration scenarios, not live inputs. The file was created in default Drafts; its sharing ACL could not be independently inspected through the integration.
+
+A separate [local interactive demonstration](prototype/README.md) supplements the Figma file with selectable details for ten schematic zones and client-side examples. It is not a shared reporting service or proof of the original implementation acceptance criteria. Browser visual and click-through verification could not be performed because access to the local preview was declined; model tests are limited to the simulated behavior.
 
 All 13 documentation files passed [source-text and relative-link validation](evidence/documentation-validation.json). This check concerns documentation integrity, not product acceptance or team review.
 
@@ -44,9 +46,10 @@ The source plan includes server enforcement, microphone processing, field studie
 - [Decision log template](docs/decision-log.md)
 - [Changes from the source plan](docs/change-log.md)
 - [Final defense evidence checklist](docs/evidence-checklist.md)
+- [Russian defense walkthrough](docs/defense-runbook-ru.md)
 - [Figma screen links, presentation guide and verification limits](design/README.md)
 - [Execution evidence summary](evidence/execution-summary.json)
-- [Editable defense presentation draft](SilentBeacon_Defense_Draft.pptx)
+- [Updated editable defense presentation draft](SilentBeacon_Defense_Ready_Draft.pptx)
 
 ## Workflow
 
