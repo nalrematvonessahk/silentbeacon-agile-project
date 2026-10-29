@@ -26,7 +26,7 @@ Prepared October 29, 2026. Defense: **November 13, 2026**. Status definitions ap
 | GitHub repository publication | In Progress | User approved publication to the private repository. This checklist is a pre-upload snapshot; verify actual repository contents and commit after upload |
 | Communication preparation | Completed — supported by actual evidence | [Unsent templates and agendas](communication-plan.md); no messages or meetings asserted |
 | Final prototype demonstration | Planned | Rehearse real navigation, verify access, capture actual evidence, and explain remaining implementation criteria |
-| Defense presentation draft | Completed — supported by actual evidence | [Editable 10-slide draft](../deliverables/SilentBeacon_Defense_Draft.pptx); real sprint results and team review remain to be added |
+| Defense presentation draft | Completed — supported by actual evidence | [Editable 10-slide draft](../SilentBeacon_Defense_Draft.pptx); real sprint results and team review remain to be added |
 
 ## Evidence to collect before defense
 
