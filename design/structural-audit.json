@@ -1,0 +1,448 @@
+{
+  "stage": "After desktop/mobile composition, before final text-context fixes",
+  "rows": [
+    {
+      "id": "2:1377",
+      "name": "Desktop web / 01 Landing Page",
+      "width": 1280,
+      "height": 925,
+      "descendants": 33,
+      "counts": {
+        "FRAME": 8,
+        "TEXT": 20,
+        "INSTANCE": 5
+      },
+      "imageFilled": [],
+      "fonts": [
+        "Inter"
+      ],
+      "links": 5
+    },
+    {
+      "id": "2:1435",
+      "name": "Desktop web / 02 Campus Floor Map",
+      "width": 1280,
+      "height": 1493,
+      "descendants": 87,
+      "counts": {
+        "FRAME": 13,
+        "TEXT": 52,
+        "INSTANCE": 22
+      },
+      "imageFilled": [],
+      "fonts": [
+        "Inter"
+      ],
+      "links": 13
+    },
+    {
+      "id": "2:1575",
+      "name": "Desktop web / 03 Study Zone Details",
+      "width": 1280,
+      "height": 950,
+      "descendants": 35,
+      "counts": {
+        "FRAME": 7,
+        "TEXT": 21,
+        "INSTANCE": 7
+      },
+      "imageFilled": [],
+      "fonts": [
+        "Inter"
+      ],
+      "links": 6
+    },
+    {
+      "id": "2:1635",
+      "name": "Desktop web / 04 Submit Noise and Outlet Report",
+      "width": 1280,
+      "height": 1164,
+      "descendants": 38,
+      "counts": {
+        "FRAME": 8,
+        "TEXT": 23,
+        "INSTANCE": 7
+      },
+      "imageFilled": [],
+      "fonts": [
+        "Inter"
+      ],
+      "links": 7
+    },
+    {
+      "id": "2:1702",
+      "name": "Desktop web / 05 Report Verification Status",
+      "width": 1280,
+      "height": 942,
+      "descendants": 28,
+      "counts": {
+        "FRAME": 5,
+        "TEXT": 17,
+        "INSTANCE": 6
+      },
+      "imageFilled": [],
+      "fonts": [
+        "Inter"
+      ],
+      "links": 6
+    },
+    {
+      "id": "2:1755",
+      "name": "Desktop web / 06 Proposed Social GPA Rewards",
+      "width": 1280,
+      "height": 1062,
+      "descendants": 29,
+      "counts": {
+        "FRAME": 6,
+        "TEXT": 18,
+        "INSTANCE": 5
+      },
+      "imageFilled": [],
+      "fonts": [
+        "Inter"
+      ],
+      "links": 5
+    },
+    {
+      "id": "2:1805",
+      "name": "Desktop web / 07 Campus Analytics Dashboard",
+      "width": 1280,
+      "height": 1628,
+      "descendants": 44,
+      "counts": {
+        "FRAME": 13,
+        "TEXT": 26,
+        "INSTANCE": 5
+      },
+      "imageFilled": [],
+      "fonts": [
+        "Inter"
+      ],
+      "links": 5
+    },
+    {
+      "id": "2:1870",
+      "name": "Desktop web / 08 Report Expired / Unknown State",
+      "width": 1280,
+      "height": 942,
+      "descendants": 32,
+      "counts": {
+        "FRAME": 7,
+        "TEXT": 19,
+        "INSTANCE": 6
+      },
+      "imageFilled": [],
+      "fonts": [
+        "Inter"
+      ],
+      "links": 6
+    },
+    {
+      "id": "2:1927",
+      "name": "Desktop web / 09 Map / Quiet and outlet filter",
+      "width": 1280,
+      "height": 1109,
+      "descendants": 48,
+      "counts": {
+        "FRAME": 7,
+        "TEXT": 27,
+        "INSTANCE": 14
+      },
+      "imageFilled": [],
+      "fonts": [
+        "Inter"
+      ],
+      "links": 9
+    },
+    {
+      "id": "2:2012",
+      "name": "Desktop web / 10 Map / Floor 2 empty results",
+      "width": 1280,
+      "height": 1694,
+      "descendants": 92,
+      "counts": {
+        "FRAME": 14,
+        "TEXT": 55,
+        "INSTANCE": 23
+      },
+      "imageFilled": [],
+      "fonts": [
+        "Inter"
+      ],
+      "links": 14
+    },
+    {
+      "id": "2:2161",
+      "name": "Desktop web / 11 Verification / Blocked",
+      "width": 1280,
+      "height": 942,
+      "descendants": 28,
+      "counts": {
+        "FRAME": 5,
+        "TEXT": 17,
+        "INSTANCE": 6
+      },
+      "imageFilled": [],
+      "fonts": [
+        "Inter"
+      ],
+      "links": 6
+    },
+    {
+      "id": "2:2214",
+      "name": "Desktop web / 12 Optional sampling / Consent and fallback",
+      "width": 1280,
+      "height": 922,
+      "descendants": 28,
+      "counts": {
+        "FRAME": 5,
+        "TEXT": 17,
+        "INSTANCE": 6
+      },
+      "imageFilled": [],
+      "fonts": [
+        "Inter"
+      ],
+      "links": 6
+    },
+    {
+      "id": "2:2267",
+      "name": "Desktop web / 13 Zone / Submitted example",
+      "width": 1280,
+      "height": 950,
+      "descendants": 35,
+      "counts": {
+        "FRAME": 7,
+        "TEXT": 21,
+        "INSTANCE": 7
+      },
+      "imageFilled": [],
+      "fonts": [
+        "Inter"
+      ],
+      "links": 6
+    },
+    {
+      "id": "2:2414",
+      "name": "Mobile web / 01 Landing Page",
+      "width": 360,
+      "height": 1460,
+      "descendants": 33,
+      "counts": {
+        "FRAME": 8,
+        "TEXT": 20,
+        "INSTANCE": 5
+      },
+      "imageFilled": [],
+      "fonts": [
+        "Inter"
+      ],
+      "links": 5
+    },
+    {
+      "id": "2:2468",
+      "name": "Mobile web / 02 Campus Floor Map",
+      "width": 360,
+      "height": 3158,
+      "descendants": 96,
+      "counts": {
+        "FRAME": 19,
+        "TEXT": 55,
+        "INSTANCE": 22
+      },
+      "imageFilled": [],
+      "fonts": [
+        "Inter"
+      ],
+      "links": 13
+    },
+    {
+      "id": "2:2617",
+      "name": "Mobile web / 03 Study Zone Details",
+      "width": 360,
+      "height": 1345,
+      "descendants": 35,
+      "counts": {
+        "FRAME": 7,
+        "TEXT": 21,
+        "INSTANCE": 7
+      },
+      "imageFilled": [],
+      "fonts": [
+        "Inter"
+      ],
+      "links": 6
+    },
+    {
+      "id": "2:2677",
+      "name": "Mobile web / 04 Submit Noise and Outlet Report",
+      "width": 360,
+      "height": 1623,
+      "descendants": 38,
+      "counts": {
+        "FRAME": 8,
+        "TEXT": 23,
+        "INSTANCE": 7
+      },
+      "imageFilled": [],
+      "fonts": [
+        "Inter"
+      ],
+      "links": 7
+    },
+    {
+      "id": "2:2744",
+      "name": "Mobile web / 05 Report Verification Status",
+      "width": 360,
+      "height": 1203,
+      "descendants": 28,
+      "counts": {
+        "FRAME": 5,
+        "TEXT": 17,
+        "INSTANCE": 6
+      },
+      "imageFilled": [],
+      "fonts": [
+        "Inter"
+      ],
+      "links": 6
+    },
+    {
+      "id": "2:2797",
+      "name": "Mobile web / 06 Proposed Social GPA Rewards",
+      "width": 360,
+      "height": 1368,
+      "descendants": 29,
+      "counts": {
+        "FRAME": 6,
+        "TEXT": 18,
+        "INSTANCE": 5
+      },
+      "imageFilled": [],
+      "fonts": [
+        "Inter"
+      ],
+      "links": 5
+    },
+    {
+      "id": "2:2847",
+      "name": "Mobile web / 07 Campus Analytics Dashboard",
+      "width": 360,
+      "height": 2225,
+      "descendants": 44,
+      "counts": {
+        "FRAME": 13,
+        "TEXT": 26,
+        "INSTANCE": 5
+      },
+      "imageFilled": [],
+      "fonts": [
+        "Inter"
+      ],
+      "links": 5
+    },
+    {
+      "id": "2:2912",
+      "name": "Mobile web / 08 Report Expired / Unknown State",
+      "width": 360,
+      "height": 1404,
+      "descendants": 32,
+      "counts": {
+        "FRAME": 7,
+        "TEXT": 19,
+        "INSTANCE": 6
+      },
+      "imageFilled": [],
+      "fonts": [
+        "Inter"
+      ],
+      "links": 6
+    },
+    {
+      "id": "2:2969",
+      "name": "Mobile web / 09 Map / Quiet and outlet filter",
+      "width": 360,
+      "height": 1651,
+      "descendants": 48,
+      "counts": {
+        "FRAME": 7,
+        "TEXT": 27,
+        "INSTANCE": 14
+      },
+      "imageFilled": [],
+      "fonts": [
+        "Inter"
+      ],
+      "links": 9
+    },
+    {
+      "id": "2:3054",
+      "name": "Mobile web / 10 Map / Floor 2 empty results",
+      "width": 360,
+      "height": 3448,
+      "descendants": 101,
+      "counts": {
+        "FRAME": 20,
+        "TEXT": 58,
+        "INSTANCE": 23
+      },
+      "imageFilled": [],
+      "fonts": [
+        "Inter"
+      ],
+      "links": 14
+    },
+    {
+      "id": "2:3212",
+      "name": "Mobile web / 11 Verification / Blocked",
+      "width": 360,
+      "height": 1272,
+      "descendants": 28,
+      "counts": {
+        "FRAME": 5,
+        "TEXT": 17,
+        "INSTANCE": 6
+      },
+      "imageFilled": [],
+      "fonts": [
+        "Inter"
+      ],
+      "links": 6
+    },
+    {
+      "id": "2:3265",
+      "name": "Mobile web / 12 Optional sampling / Consent and fallback",
+      "width": 360,
+      "height": 1246,
+      "descendants": 28,
+      "counts": {
+        "FRAME": 5,
+        "TEXT": 17,
+        "INSTANCE": 6
+      },
+      "imageFilled": [],
+      "fonts": [
+        "Inter"
+      ],
+      "links": 6
+    },
+    {
+      "id": "2:3318",
+      "name": "Mobile web / 13 Zone / Submitted example",
+      "width": 360,
+      "height": 1365,
+      "descendants": 35,
+      "counts": {
+        "FRAME": 7,
+        "TEXT": 21,
+        "INSTANCE": 7
+      },
+      "imageFilled": [],
+      "fonts": [
+        "Inter"
+      ],
+      "links": 6
+    }
+  ],
+  "issues": []
+}
