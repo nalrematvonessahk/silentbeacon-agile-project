@@ -23,7 +23,7 @@ Prepared October 29, 2026. Defense: **November 13, 2026**. Status definitions ap
 | Risks and changes documented | Completed — supported by actual evidence | [Risk register](risk-register.md) and [change log](change-log.md); mitigations are not thereby completed |
 | GitHub documentation files | Completed — supported by actual evidence | README plus twelve local documentation files; publication is a separate item |
 | GitHub repository setup | Completed — supported by actual evidence | [Private repository](https://github.com/nalrematvonessahk/silentbeacon-agile-project) created and verified in browser on October 29, 2026 |
-| GitHub repository publication | In Progress | User approved publication to the private repository. This checklist is a pre-upload snapshot; verify actual repository contents and commit after upload |
+| GitHub repository publication | Completed — supported by actual evidence | User-approved README, twelve project documents, Figma design files, Trello data, evidence records, and defense draft committed to the private repository; review its commit history and files |
 | Communication preparation | Completed — supported by actual evidence | [Unsent templates and agendas](communication-plan.md); no messages or meetings asserted |
 | Final prototype demonstration | Planned | Rehearse real navigation, verify access, capture actual evidence, and explain remaining implementation criteria |
 | Defense presentation draft | Completed — supported by actual evidence | [Editable 10-slide draft](../SilentBeacon_Defense_Draft.pptx); real sprint results and team review remain to be added |
@@ -37,7 +37,7 @@ Prepared October 29, 2026. Defense: **November 13, 2026**. Status definitions ap
 - [x] Create and visually inspect all eight required Figma views in desktop and 360px web layouts, with reusable components and configured navigation reactions. Human Present-mode checks remain pending.
 - [x] Preserve visible labels for schematic layout, demonstration data and proposed simulated rewards in the inspected designs.
 - [ ] Record actual Reviews and Retrospectives with genuine feedback and agreed actions.
-- [ ] Publish authorized documentation to the real GitHub repository and verify its links.
+- [x] Publish authorized documentation to the private GitHub repository and verify the repository, document listings, Trello/Figma links, and presentation location.
 - [ ] Run and document a rehearsal, including expiry, Unknown, empty results and report feedback.
 - [ ] List unfinished original implementation criteria and explain why a prototype does not prove server or audio behavior.
 
