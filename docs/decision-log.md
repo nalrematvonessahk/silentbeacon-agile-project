@@ -8,7 +8,7 @@ Prepared October 29, 2026. **No team meeting or team-approved decision is assert
 
 ## Decisions still needed
 
-- Confirm revised availability and feasible forecast for the six-day sprints.
+- Confirm actual availability and a feasible forecast for the three-week sprints.
 - Agree how prototype completion is recorded while original implementation criteria remain unmet.
 - Confirm per-story coordination contacts and native platform assignments.
 - Decide which optional sampling states are useful for the academic demonstration.

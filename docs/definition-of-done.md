@@ -14,7 +14,7 @@ Original integration checks exercise the server. Release evidence includes a rea
 - [ ] Required desktop and narrow web layouts are editable and reviewed at intended sizes, including 360-pixel width where US04 applies.
 - [ ] Main interactions reach their intended destinations; back/retry/cancel paths are checked in Figma Present mode.
 - [ ] Noise and outlet categories are named in text, and Unknown is distinct from Quiet and from None available.
-- [ ] Demonstrated 45-minute expiry is consistent on map, details and filters; noise and outlet freshness are independent.
+- [ ] Demonstrated 30-minute expiry is consistent on map, details and filters; noise and outlet freshness are independent.
 - [ ] Demo reports, schematic layouts, analytics, eligibility and other simulations are clearly labeled.
 - [ ] Social GPA is labeled simulated, proposed, and subject to university approval; no award is represented as earned.
 - [ ] No physical IoT or production backend capability is implied.

@@ -1,25 +1,25 @@
 # Product backlog
 
-Prepared October 29, 2026. The 12 story statements, acceptance criteria, priorities, sprint assignments, and points below are transcribed from source sections 3.3–3.5. Short card titles are editorial summaries. No story is Done. **63 SP total: 21 SP in each sprint; 9 Must and 3 Should.** Points remain original estimates, not confirmed capacity for the shortened sprints.
+Prepared October 29, 2026; revised October 30 from the endterm report's nine-week plan at the user's direction. The 12 story statements, acceptance criteria, priorities, sprint assignments, and points below follow the report sections 3.3–3.4. The older DOCX's different US09–US11 and 45-minute rule are recorded in the change log. Short card titles are editorial summaries. No story is Done. **63 SP total: 21 SP in each sprint; 9 Must and 3 Should.** Points remain original estimates, not confirmed capacity or measured velocity.
 
 The source specifies sprint work-package leads, not a single owner for each story. The contacts below are **proposed coordination contacts pending Developers' agreement**, based on those responsibilities. They are not evidence of accepted assignments or Trello membership.
 
 | Rank / ID | Card title | Priority | Sprint | SP | Proposed contact | Due date |
 |---|---|---|---|---:|---|---|
-| 1 / US01 | Select study zones on a floor map | Must | 1 | 5 | Merey Amangeldi | 2026-10-31 |
-| 2 / US02 | Submit noise and outlet reports | Must | 1 | 5 | Askhat Rakhmetollayev | 2026-10-31 |
-| 3 / US03 | Find quiet zones with available power | Must | 1 | 5 | Merey Amangeldi | 2026-10-31 |
-| 4 / US04 | Read responsive zone status details | Must | 1 | 6 | Merey Amangeldi | 2026-10-31 |
-| 5 / US05 | Restrict contributions to eligible campus requests | Must | 2 | 8 | Tamerlan Khassenov | 2026-11-06 |
-| 6 / US06 | Expire reports after 45 minutes | Must | 2 | 5 | Tamerlan Khassenov | 2026-11-06 |
-| 7 / US07 | Keep report updates predictable | Must | 2 | 5 | Tamerlan Khassenov | 2026-11-06 |
-| 8 / US08 | Explain eligibility and error states | Should | 2 | 3 | Askhat Rakhmetollayev | 2026-11-06 |
-| 9 / US09 | Offer a voluntary three-second noise estimate | Should | 3 | 8 | Askhat Rakhmetollayev | 2026-11-12 |
-| 10 / US10 | Preserve sampling privacy and manual fallback | Must | 3 | 5 | Asanali Yessenbekov | 2026-11-12 |
-| 11 / US11 | Explain estimate uncertainty | Should | 3 | 5 | Aldiyar Gaisa | 2026-11-12 |
-| 12 / US12 | Make the pilot release repeatable | Must | 3 | 3 | Asanali Yessenbekov | 2026-11-12 |
+| 1 / US01 | Select study zones on a floor map | Must | 1 | 5 | Merey Amangeldi | 2026-11-12 |
+| 2 / US02 | Submit noise and outlet reports | Must | 1 | 5 | Askhat Rakhmetollayev | 2026-11-12 |
+| 3 / US03 | Find quiet zones with available power | Must | 1 | 5 | Merey Amangeldi | 2026-11-12 |
+| 4 / US04 | Read responsive zone status details | Must | 1 | 6 | Merey Amangeldi | 2026-11-12 |
+| 5 / US05 | Restrict contributions to eligible campus requests | Must | 2 | 8 | Tamerlan Khassenov | 2026-12-03 |
+| 6 / US06 | Expire reports after 30 minutes | Must | 2 | 5 | Tamerlan Khassenov | 2026-12-03 |
+| 7 / US07 | Keep report updates predictable | Must | 2 | 5 | Tamerlan Khassenov | 2026-12-03 |
+| 8 / US08 | Explain eligibility and error states | Should | 2 | 3 | Askhat Rakhmetollayev | 2026-12-03 |
+| 9 / US09 | Show recognition for verified reports | Should | 3 | 8 | Askhat Rakhmetollayev | 2026-12-24 |
+| 10 / US10 | Show aggregated campus issues | Must | 3 | 5 | Merey Amangeldi | 2026-12-24 |
+| 11 / US11 | Show fair reward rules | Should | 3 | 5 | Aldiyar Gaisa | 2026-12-24 |
+| 12 / US12 | Make the pilot release repeatable | Must | 3 | 3 | Asanali Yessenbekov | 2026-12-24 |
 
-Due dates are sprint-end target dates from the user's schedule. Trello uses 23:59 UTC+05:00 (18:59 UTC) as an administrative end-of-day convention; the source does not specify a time. Initial evidence status for original story completion is **Planned**, except implementation verification explicitly blocked by the current prototype-only scope. Card creation or design completion alone does not change story completion status.
+Due dates are sprint-end targets in the endterm report's nine-week schedule. Trello uses 23:59 UTC+05:00 (18:59 UTC) as an administrative end-of-day convention; the source does not specify a time. On October 30, US01–US03 were moved to In Progress based on assistant-created partial prototype artifacts; US04 remains in Sprint Backlog and US05–US12 in Product Backlog. No original story is Done. Actual selection and team assignments remain unconfirmed. Prototype design completion alone does not satisfy implementation acceptance criteria.
 
 ## US01 — Select study zones on a floor map
 
@@ -61,13 +61,13 @@ Due dates are sprint-end target dates from the user's schedule. Trello uses 23:5
 
 **Prototype evidence to collect:** Clearly simulated eligible and blocked states with a next action. **Original server verification: Blocked by prototype-only scope**; campus IT agreement is not assumed. Do not suggest a browser SSID check proves eligibility or location.
 
-## US06 — Expire reports after 45 minutes
+## US06 — Expire reports after 30 minutes
 
 **Story:** As a student, I want old reports removed from live results.
 
-**Original acceptance:** Accept when a report expires at age 45 minutes on both map and filter, using server time.
+**Original acceptance:** Accept when a report expires at age 30 minutes on both map and filter, using server time.
 
-**Prototype evidence to collect:** A 44:59 fresh example and a 45:00 expired/Unknown example, including removal from the Quiet + Available filter. Noise and outlet observations expire independently. **Server-time enforcement: Blocked by prototype-only scope.**
+**Prototype evidence to collect:** A 29:59 fresh example and a 30:00 expired/Unknown example, including removal from the Quiet + Available filter. Noise and outlet observations expire independently. **Server-time enforcement: Blocked by prototype-only scope.**
 
 ## US07 — Keep report updates predictable
 
@@ -85,29 +85,29 @@ Due dates are sprint-end target dates from the user's schedule. Trello uses 23:5
 
 **Prototype evidence to collect:** Text and icon labels for blocked/expired states with links to retry, return to the map, or submit a new report as appropriate.
 
-## US09 — Offer a voluntary three-second noise estimate
+## US09 — Recognition for verified reports
 
-**Story:** As a contributor, I want a three-second noise estimate.
+**Story:** As a contributor, I want recognition for verified reports.
 
-**Original acceptance:** Accept when an explicit tap starts local processing after consent, then stops every microphone track.
+**Report acceptance:** The prototype shows pending, approved and rejected reward states without issuing real Social GPA.
 
-**Prototype evidence to collect:** If retained, label consent/progress/result screens as a simulated optional flow. **Actual capture and track cleanup: Blocked by prototype-only scope.** Do not request microphone access just to demonstrate a design.
+**Prototype evidence to collect:** Labeled simulated pending, approved and rejected examples; state that any actual award requires university approval. Existing Figma states must be checked against these criteria.
 
-## US10 — Preserve sampling privacy and manual fallback
+## US10 — Aggregated campus issues
 
-**Story:** As a privacy-conscious user, I want control over sampling.
+**Story:** As an administrator, I want an aggregated issue view.
 
-**Original acceptance:** Accept when denial or cancellation leaves manual reporting available and network inspection finds no audio upload.
+**Report acceptance:** Repeated noise and outlet complaints appear without identifying contributors.
 
-**Prototype evidence to collect:** Manual reporting remains accessible after a represented denial or cancellation. **Original network-inspection criterion: Unverified; no implementation is present to assess.** US10 remains mandatory whenever real sampling is enabled.
+**Prototype evidence to collect:** Clearly labeled demonstration aggregates for noisy areas and outlet shortages, with no contributor identifiers. No live campus measurements or real administrative decisions are implied.
 
-## US11 — Explain estimate uncertainty
+## US11 — Fair reward rules
 
-**Story:** As a student, I want an understandable estimate.
+**Story:** As a contributor, I want fair reward rules.
 
-**Original acceptance:** Accept when pilot devices are compared with observer labels and the interface identifies an uncalibrated estimate.
+**Report acceptance:** Duplicate or unverified reports do not earn example rewards.
 
-**Prototype evidence to collect:** An explicit uncalibrated-estimate label if a sampling view is shown. **Device comparison: Planned only, with no observations collected or claimed.** The source target is 30 samples over three device models and three noise categories, aiming for 80% agreement; these are not results.
+**Prototype evidence to collect:** Explicit simulated examples or messages showing that duplicate and unverified reports are ineligible. No server-enforced anti-abuse behavior is claimed.
 
 ## US12 — Make the pilot release repeatable
 
@@ -119,6 +119,4 @@ Due dates are sprint-end target dates from the user's schedule. Trello uses 23:5
 
 ## Dependencies and changes
 
-US01 precedes map-based reporting and filtering. US05 needs a trusted campus route. US09 depends on a working report API and US11 on US09. If sampling fails privacy or quality gates, it stays disabled and manual reporting remains available. Retain these source dependencies even where implementation is deferred.
-
-The proposed Social GPA rewards and campus analytics views are additional requests in the current brief. Track them as design scope changes linked to the [change log](change-log.md), not as invented US13/US14 or falsely attributed source stories. University approval for rewards is outstanding.
+US01 precedes map-based reporting and filtering. US05 needs a trusted campus route for real verification. Verified rewards depend on trustworthy submission rules; administrative insights depend on aggregates that do not identify contributors. University approval is outstanding for real Social GPA. The older DOCX's optional microphone and privacy stories are historical, not US09–US11 in the current report. Any optional sampling remains conceptual, with no live capture or sensor capability claimed.

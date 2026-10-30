@@ -2,22 +2,24 @@
 
 Recorded October 29, 2026. Source: `SilentBeacon_Agile_Project_Plan_SE2416.docx`, submission date October 20, 2026; SHA-256 `D63A3CE5AF4EEF05C80B272D46637A3608A6590810C53061B11F90DBD81DE2BE`.
 
-The source is a proposed plan, not historical delivery evidence. The current user's explicit instructions govern the changes below. This record does not imply team consensus, instructor approval, or a meeting on October 29.
+Sources are proposed plans, not proof of historical delivery. On October 30 the user first chose six weeks and subsequently supplied the endterm report and explicitly selected its nine-week schedule, 30-minute rule and US09–US11. Neither choice implies team consensus, instructor approval or an event.
 
-| Change | Source plan | Current instruction | Consequence / remaining decision |
+| Change | Earlier state | Current user decision / report | Consequence |
 |---|---|---|---|
-| C01 Schedule | S1 Oct 26–Nov 8; S2 Nov 9–22; S3 Nov 23–Dec 6 | S1 Oct 26–31; S2 Nov 1–6; S3 Nov 7–12; defense Nov 13 | Preserve 21 SP source assignment per sprint, but confirm feasible forecast and capacity |
-| C02 Delivery scope | Pilot web application with server, optional local microphone analysis, field checks and repeatable release | Visual and interactive academic prototype; no unnecessary backend | Preserve original criteria and explicitly mark implementation verification unfulfilled |
-| C03 Board structure | Backlog, Ready, In progress, Review, Test, Done | Product Backlog, Sprint Backlog, To Do, In Progress, Review, Testing, Done | Use requested lists; source WIP suggestions remain three In Progress and two Review |
-| C04 Design extensions | No Social GPA or administrative analytics story among US01–US12 | Proposed Social GPA rewards and campus analytics screens | Record as additional design scope; rewards simulated and subject to approval; analytics demonstration data |
-| C05 Review schedule | Nov 8, Nov 22, Dec 6 | Align with shortened sprint ends | Proposed Oct 31, Nov 6, Nov 12; actual times and attendance pending |
-| C06 Demonstration format | Figma prototype with a limited Z01 scripted reporting journey | Supplement with a local interactive simulation covering ten schematic zones | Separate from the existing Figma file; no server, real reports or university policy. Browser visual and click-through review remains uncompleted; no story is marked Done by the simulation |
+| C01 Schedule | Initial brief: Oct 26–31, Nov 1–6, Nov 7–12; later six-week selection: Oct 26–Nov 8, Nov 9–22, Nov 23–Dec 6 | Endterm report: S1 Oct 23–Nov 12, S2 Nov 13–Dec 3, S3 Dec 4–24; defense Nov 13 | Nine sprint weeks; post-defense work remains planned; earlier dates remain historical only |
+| C02 Delivery scope | Pilot web application with server, optional local microphone analysis, field checks and repeatable release | Visual and interactive academic prototype; no unnecessary backend | Preserve report criteria and explicitly mark implementation verification unfulfilled |
+| C03 Board structure | Backlog, Ready, In progress, Review, Test, Done | Product Backlog, Sprint Backlog, To Do, In Progress, Review, Testing, Done | Use requested lists; no claim of team agreement |
+| C04 Story scope | DOCX US09: optional three-second estimate; US10: sampling privacy and fallback; US11: explain estimate uncertainty | Endterm PDF US09: pending/approved/rejected simulated rewards; US10: anonymous aggregated issues; US11: duplicates/unverified earn no example reward | Replace current US09–US11 while preserving this historical mapping; optional microphone remains proposed, not implemented |
+| C05 Expiry | Earlier DOCX and user brief: 45 minutes, with 44:59/45:00 examples | Endterm PDF and later user decision: 30 minutes, with 29:59/30:00 examples | Figma text and timestamp examples updated October 30; editor search and desktop/narrow expiry frames checked. Full Present-mode walkthrough remains pending |
+| C06 Capacity | Earlier DOCX: 5 × 12 hours/week for six weeks, 90/20/10 delivery/coordination/reserve per sprint | Endterm PDF: 5 × 8 hours/week for nine weeks, 90/21/9 per sprint | Both total 360 planned hours, but they are different assumptions; actual availability remains unconfirmed |
+| C07 Reviews | Previously proposed Oct 31, Nov 6, Nov 12, then Nov 8, Nov 22, Dec 6 | Report proposes Nov 12, Dec 3 and Dec 24 | Dates, attendance and events are planned, not completed; defense rehearsal must occur before Nov 13 |
+| C08 Demonstration format | Figma prototype with a limited Z01 scripted reporting journey | Supplement with a local interactive simulation covering ten schematic zones | Distinguish versions and testing; no server, real reports or university policy; browser walkthrough remains uncompleted |
 
-## Matters intentionally not rewritten
+## Traceability and pending decisions
 
-All twelve original story statements, acceptance criteria, priorities, points and sprint assignments remain traceable. The original 15 work-package leads and 18-hour estimates are retained as the source forecast. No hours are recast as completed effort. Per-story contacts are proposals because the source assigns work-package leads rather than native Trello members.
+US01–US08 and US12 remain report stories; US06's expiry changed and US09–US11 now follow the endterm PDF. IDs, points and priorities remain stable. Source task estimates are forecasts, not completed effort; per-story contacts are proposals. The team must confirm actual availability, ownership and completion standard. The report's optional microphone concept is not implemented.
 
-The source goal of a working pilot cannot be declared satisfied by an interactive mockup. The current brief authorizes prototype preparation, but the team still needs to agree how to report the difference at defense and which implementation work stays outside the submission.
+The report's Sprint 3 section mentions defense preparation during December even though defense is November 13. Treat rehearsal as a pre-defense task and Sprint 3 as post-defense work; do not claim the report's chronology has been performed.
 
 ## Future change template
 

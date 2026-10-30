@@ -1,17 +1,17 @@
 const {test}=require('node:test');
 const assert=require('node:assert/strict');
 const model=require('./dist/model.js');
-test('45-minute boundary expires each field independently',()=>{
+test('30-minute boundary expires each field independently',()=>{
   const zone={noise:{value:'Quiet',at:0},outlet:{value:'Available',at:60000}};
-  assert.equal(model.status(zone,2699000).noise.value,'Quiet');
-  assert.equal(model.status(zone,2700000).noise.value,'Unknown');
-  assert.equal(model.status(zone,2700000).outlet.value,'Available');
-  assert.equal(model.status(zone,2760000).outlet.value,'Unknown');
+  assert.equal(model.status(zone,1799000).noise.value,'Quiet');
+  assert.equal(model.status(zone,1800000).noise.value,'Unknown');
+  assert.equal(model.status(zone,1800000).outlet.value,'Available');
+  assert.equal(model.status(zone,1860000).outlet.value,'Unknown');
 });
 test('combined filter excludes expired and unknown fields',()=>{
   const filters={quiet:true,power:true},zone={noise:{value:'Quiet',at:0},outlet:{value:'Available',at:60000}};
-  assert.equal(model.matches(zone,2699000,filters),true);
-  assert.equal(model.matches(zone,2700000,filters),false);
+  assert.equal(model.matches(zone,1799000,filters),true);
+  assert.equal(model.matches(zone,1800000,filters),false);
   assert.equal(model.matches({noise:{value:'Unknown',at:null},outlet:{value:'Available',at:0}},1000,filters),false);
 });
 test('valid simulation updates both observation times; invalid input does not mutate',()=>{
@@ -37,7 +37,7 @@ test('every selected zone receives the simulated update independently',()=>{
     assert.equal(target.outlet.value,'None available');
   }
 });
-test('after 45 minutes combined quiet and available results can be empty',()=>{
+test('after 30 minutes combined quiet and available results can be empty',()=>{
   const zones=model.createZones(10000000), later=10000000+model.TTL;
   assert.equal(zones.filter(z=>model.matches(z,later,{quiet:true,power:true})).length,0);
 });

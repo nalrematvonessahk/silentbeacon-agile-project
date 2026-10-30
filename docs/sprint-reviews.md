@@ -4,9 +4,11 @@ Prepared October 29, 2026. **No Sprint Review is recorded as held.** The entries
 
 | Sprint | Proposed review date | Focus | Event status |
 |---|---|---|---|
-| 1 | October 31, 2026 | Manual map, reporting, combined filter, responsive details | Planned |
-| 2 | November 6, 2026 | Eligibility feedback, report updates and expiry | Planned |
-| 3 | November 12, 2026 | Final prototype, limitations and defense readiness | Planned |
+| 1 | November 12, 2026 | Manual map, reporting, combined filter, responsive details | Planned |
+| 2 | December 3, 2026 | Eligibility feedback, report updates and expiry | Planned |
+| 3 | December 24, 2026 | Prototype results, limitations and remaining work | Planned |
+
+Dates updated October 30 following the endterm report and user selection of nine weeks. The November 13 defense is a separate checkpoint in Sprint 2. These are proposed dates, not proof of events or invitations.
 
 ## Agenda — 30 minutes
 

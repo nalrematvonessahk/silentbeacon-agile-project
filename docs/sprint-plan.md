@@ -1,21 +1,21 @@
 # Sprint plan
 
-Prepared October 29, 2026. User-specified dates supersede the source's proposed two-week calendar. Sprint starts are schedule dates, not evidence of work having begun on those dates.
+Prepared October 29, 2026; replanned October 30 following the user's instruction to use the endterm report's nine weeks, with work continuing after the November 13 defense. The prior shortened and six-week plans are historical. Sprint starts are schedule dates, not evidence of work or meetings on those dates.
 
 | Period | Exact dates in 2026 | Source stories / points | Source Sprint Goal | Prototype interpretation for team review |
 |---|---|---|---|---|
-| Sprint 1 | October 26–31 | US01–US04 / 21 SP | A student can find a pilot zone using current manual noise and outlet reports | Demonstrate floor selection, zone details, manual reporting and combined filtering with labeled sample data |
-| Sprint 2 | November 1–6 | US05–US08 / 21 SP | Trustworthy, recent reports | Demonstrate eligibility feedback, predictable update/error states and 45-minute expiry; server enforcement remains unverified |
-| Sprint 3 | November 7–12 | US09–US12 / 21 SP | Voluntary noise estimation without audio storage or upload | Review optional sampling representation and manual fallback, finish prototype documentation and rehearse the defense; no actual sampling or release is asserted |
+| Sprint 1 | October 23–November 12 | US01–US04 / 21 SP | A student can find a pilot zone using current manual noise and outlet reports | Demonstrate floor selection, zone details, manual reporting and combined filtering with labeled sample data |
+| Sprint 2 | November 13–December 3 | US05–US08 / 21 SP | Trustworthy, recent reports | Demonstrate eligibility feedback, predictable update/error states and 30-minute expiry; defense is November 13 and server enforcement remains unverified |
+| Sprint 3 | December 4–24 | US09–US12 / 21 SP | Demonstrate aggregated campus insights and reward-flow clarity | Review the proposed reward states, aggregated demonstration data, usability and remaining work after defense; no real rewards or release are asserted |
 | Final defense | November 13 | Demonstration and evidence | Academic assessment | Show actual artifacts, decisions, checks and remaining limitations |
 
-Proposed Reviews and Retrospectives: October 31, November 6, and November 12. Meeting times and attendance are not set. Use actual event dates if these targets change. No October 26 planning meeting is asserted or reconstructed.
+Proposed Reviews and Retrospectives: November 12, December 3 and December 24. The defense on November 13 is a separate checkpoint during Sprint 2. Meeting times and attendance are not set. Use actual event dates if these targets change. The report's proposed planning period of October 16–22 is not evidence of a meeting.
 
 ## Capacity reconciliation
 
-Source assumptions: 12 hours per person per week; 24 per person per **two-week** sprint; five members; 120 hours per sprint, split into 90 delivery, 20 coordination and 10 contingency. Total forecast: 360 hours (270 delivery, 60 coordination, 30 contingency). Each of the 15 source work packages below was estimated at 18 delivery hours.
+The endterm report proposes 8 hours per person per week for nine sprint weeks. Five members yield 40 person-hours per week, 120 per three-week sprint and 360 in total. Per sprint the proposal allocates 90 hours delivery, 21 hours Scrum/refinement and 9 contingency; across three sprints: 270 delivery, 63 coordination and 27 contingency. Each of 15 report work packages is estimated at 18 delivery hours.
 
-Those assumptions do not establish capacity for six-day sprints. **Revised capacity is unconfirmed.** Do not transplant 120 hours to each shortened sprint, divide points into hours, or label 21 SP an achieved velocity. Each member should state available hours for the remaining dates; Developers then select a feasible prototype forecast, accounting for ceremonies and contingency. Source estimates remain for traceability, not new commitments.
+**Actual capacity is unconfirmed.** These are full-period forecasts, not completed effort or remaining availability as of October 30. The report's 21 SP per sprint is an initial ambition, not measured velocity, and points do not convert into hours. Each member should confirm available time; Developers select a feasible Sprint Backlog.
 
 | Member | Sprint 1 remaining availability | Sprint 2 availability | Sprint 3 availability | Confirmed on |
 |---|---|---|---|---|
@@ -41,15 +41,16 @@ The following is a faithful preservation of source task leads and work, **not a 
 | S2 T3 | Tamerlan | Enforce server network checks, timestamp expiry, atomic updates and write limits. Trusted gateway and database. |
 | S2 T4 | Merey | Show status age, expired states and refreshed filter results; improve usability from Sprint 1 feedback. Map interface and devices. |
 | S2 T5 | Asanali | Test time boundaries, concurrent writes, duplicate submissions and external access; run field regression. Fake clock and two network routes. |
-| S3 T1 | Aldiyar | Define calibration protocol, compare observer labels and results, assist release checks and write user guidance. Volunteers and test logs. |
-| S3 T2 | Askhat | Implement capture lifecycle and cancellation; check cleanup on errors and tab changes. Browser microphone API and devices. |
-| S3 T3 | Tamerlan | Implement local signal aggregation and summary submission; verify payload restrictions and release configuration. Web Audio and staging API. |
-| S3 T4 | Merey | Build consent, progress, estimated category and fallback interface; fix observed usability issues. Browser and design prototype. |
-| S3 T5 | Asanali | Run browser, permission and privacy tests; execute pilot regression, document defects and rehearse rollback. Test devices and network inspector. |
+| S3 T1 | Aldiyar | Define campus issue scenarios, review reward rules and write demonstration guidance. |
+| S3 T2 | Askhat | Build proposed reward states and check pending or rejected contribution flows. |
+| S3 T3 | Tamerlan | Prepare aggregated sample issue data and verification fixtures; separate examples from live reports. |
+| S3 T4 | Merey | Build the campus insights dashboard and reward indicators; refine map usability. |
+| S3 T5 | Asanali | Check privacy, reward clarity and aggregated trends; run prototype tests. Defense rehearsal must be before November 13, not after it. |
+
 
 ## Board rules
 
-Use the requested lists: Product Backlog, Sprint Backlog, To Do, In Progress, Review, Testing, Done. Product Backlog contains the ordered requirements. The four Sprint 1 cards are initially staged in Sprint Backlog as a **draft forecast pending Developers' agreement**, preserving the source assignment without claiming actual team selection. After planning, record selection and capacity explicitly. To Do contains ready tasks; In Progress requires actual work; Review requires a concrete artifact; Testing requires an explicit verification target; Done requires the agreed completion evidence.
+Use the requested lists: Product Backlog, Sprint Backlog, To Do, In Progress, Review, Testing, Done. Product Backlog contains the ordered requirements. US01–US03 have assistant-created prototype drafts and are In Progress; US04 has a partial draft and is in Sprint Backlog. Their Sprint 1 allocation remains a **forecast pending Developers' agreement**. After planning, record selection and capacity explicitly. Separate operational cards describe the plan, reviews, tests and a completed board-setup artifact; these do not imply that any original story is Done or that team events occurred. To Do contains ready tasks; In Progress requires actual work; Review requires a concrete artifact; Testing requires an explicit verification target; Done requires completion evidence.
 
 Trello due times use 23:59 UTC+05:00 on the sprint end date as an administrative convention, not a source-defined meeting or deadline time. Four proposed checklist items per story are a prototype task breakdown, separate from the 15 original work packages; unchecked checklist items do not imply work has started.
 
@@ -58,7 +59,7 @@ Keep original stories visible when only prototype tasks are completed. Record sc
 ## Proposed review demonstrations
 
 1. Sprint 1: open a floor, choose a zone, submit a simulated manual report, apply Quiet + Available outlets, and inspect its timestamp. Include an empty-result example and 360-pixel layout.
-2. Sprint 2: inspect simulated eligibility feedback, compare 44:59 and 45:00 states, show independent noise/outlet freshness and a filter that excludes expired values. Explain that server verification is not implemented.
-3. Sprint 3: show manual fallback and any clearly simulated sampling states; demonstrate the eight required views, proposed rewards and example analytics; inspect documentation, remaining defects, and final evidence.
+2. Sprint 2: inspect simulated eligibility feedback, compare 29:59 and 30:00 states, show independent noise/outlet freshness and a filter that excludes expired values. Explain that server verification is not implemented.
+3. Sprint 3: demonstrate the eight required views, proposed rewards and example analytics; inspect documentation, remaining defects, and final evidence.
 
-These are agendas, not completed reviews or test results.
+These are agendas, not completed reviews or test results. On October 30 the Figma expiry examples were updated to the 30-minute rule and the desktop and narrow expiry frames inspected; a complete Present-mode walkthrough remains pending.

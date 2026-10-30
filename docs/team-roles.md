@@ -5,8 +5,8 @@ Astana IT University · Project Management · SE-2416. Roles and responsibilitie
 | Member | Role | Source responsibility |
 |---|---|---|
 | Aldiyar Gaisa | Product Owner / Developer | Own product goal and ordered backlog; clarify acceptance criteria; coordinate student feedback; contribute API checks and integration; work with Merey on labels |
-| Askhat Rakhmetollayev | Scrum Master / Developer | Facilitate events, surface impediments and support agreements; develop application/capture lifecycle features; pair with Asanali on failure paths |
-| Tamerlan Khassenov | Backend Developer | Lead data model, API, eligibility and expiry logic; review measurement processing and deployment; share knowledge with Askhat |
+| Askhat Rakhmetollayev | Scrum Master / Developer | Facilitate events, surface impediments and support agreements; develop application and simulated reward-state features; pair with Asanali on failure paths |
+| Tamerlan Khassenov | Backend Developer | Lead data model, API, eligibility and expiry logic; review contribution verification and aggregate data handling; share knowledge with Askhat |
 | Merey Amangeldi | UI Developer | Lead SVG map, responsive interface, accessibility and feedback changes; review report presentation with Aldiyar |
 | Asanali Yessenbekov | Testing Developer | Lead test strategy, field records, browser verification and release checks; collaborate with every developer on quality |
 

@@ -1,6 +1,6 @@
 # Project vision
 
-Prepared October 29, 2026. Source: Agile Project Plan sections 1 and 3, with the current user brief governing the prototype-only delivery and November 13 defense.
+Prepared October 29, 2026; updated October 30 using the endterm report and user decisions. Prototype-only delivery and November 13 defense remain in effect.
 
 ## Problem and product goal
 
@@ -25,14 +25,14 @@ The source proposes approximately ten public zones on two floors, subject to map
 
 Required views are Landing Page, Campus Floor Map, Study Zone Details, Submit Noise and Outlet Report, Report Verification Status, Proposed Social GPA Rewards, Campus Analytics Dashboard, and Report Expired / Unknown State. Reusable navigation, buttons, status badges, report cards, form controls, and panels should support a consistent web experience.
 
-Noise uses Quiet / Moderate / Loud; a missing or expired observation is Unknown, never Quiet by default. Outlet availability uses Available / None available / Unknown. Noise and outlet observations expire independently at age 45 minutes. Any prototype clock, saved report, eligibility check, or reward is a simulation and must be presented as such.
+Noise uses Quiet / Moderate / Loud; a missing or expired observation is Unknown, never Quiet by default. Outlet availability uses Available / None available / Unknown. Noise and outlet observations are planned to expire independently at age 30 minutes. Any prototype clock, saved report, eligibility check, or reward is a simulation and must be presented as such.
 
-Social GPA is a proposed extension in the current brief, absent from the source backlog. It must remain visibly simulated and subject to university approval. Analytics are also a requested design extension and must not be represented as collected campus data.
+Social GPA and administrative analytics are included in the endterm report's US09–US11. Rewards remain visibly simulated and subject to university approval; analytics must not be presented as collected campus data.
 
 ## Exclusions and retained future work
 
-No physical IoT sensors, hardware procurement, booking, indoor navigation, Wi-Fi quality reporting, exact free-seat counts, or unnecessary backend infrastructure are included. Original server-side acceptance criteria, microphone lifecycle checks, device calibration, and production/pilot release checks remain traceable future implementation requirements; they are not satisfied by interface demonstrations.
+No physical IoT sensors, hardware procurement, booking, indoor navigation, Wi-Fi quality reporting, exact free-seat counts, or unnecessary backend infrastructure are included. Server-side acceptance criteria, optional microphone privacy checks, and production/pilot release checks remain future implementation requirements; they are not satisfied by interface demonstrations.
 
 ## Success evidence for this submission
 
-The team can navigate a coherent prototype, explain each state and limitation, trace the design to the 12 original stories, and show authentic planning and review records. The team must still agree the shortened capacity forecast and the treatment of original implementation criteria. Real feedback is recorded only if it actually occurs, with date, task, method, outcome, and limitations.
+The team can navigate a coherent prototype, explain each state and limitation, trace the design to the 12 original stories, and show authentic planning and review records. The team must still confirm actual capacity and agree the treatment of original implementation criteria. Real feedback is recorded only if it actually occurs, with date, task, method, outcome, and limitations.

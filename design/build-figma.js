@@ -1,6 +1,10 @@
 // Execute in the Figma Plugin API context after inspecting the destination file.
 // Intended for use_figma, which supplies top-level await and return.
 // This creates editable native nodes; no screenshots, remote assets, backend or microphone.
+// Safe fresh build only: never mutate, move, or duplicate existing page content.
+if (figma.currentPage.children.length) {
+  throw new Error('The current page is not empty. Build stopped before any changes; use a separate empty page and reconcile manually.');
+}
 const createdNodeIds = [];
 const mutatedNodeIds = [];
 const keep = n => { createdNodeIds.push(n.id); return n; };
@@ -58,19 +62,17 @@ function button(parent,label,target,style='Primary',width){const n=keep(componen
 function badge(parent,value){return button(parent,value,null,components[value]?value:'Secondary');}
 const definitions=[
  ['landing','01 Landing Page'],['map','02 Campus Floor Map'],['details','03 Study Zone Details'],['report','04 Submit Noise and Outlet Report'],['verification','05 Report Verification Status'],['rewards','06 Proposed Social GPA Rewards'],['analytics','07 Campus Analytics Dashboard'],['expired','08 Report Expired / Unknown State'],
- ['filtered','09 Map / Quiet and outlet filter'],['floor2','10 Map / Floor 2 empty results'],['blocked','11 Verification / Blocked'],['sampling','12 Optional sampling / Consent and fallback'],['updated','13 Zone / Submitted example']
+ ['filtered','09 Map / Quiet and outlet filter'],['floor2','10 Map / Floor 2 empty results'],['floor2Filtered','14 Map / Floor 2 filtered empty'],['blocked','11 Verification / Blocked'],['sampling','12 Optional sampling / Consent and fallback'],['updated','13 Zone / Submitted example'],['rewardsApproved','15 Rewards / Approved'],['rewardsRejected','16 Rewards / Rejected']
 ];
 const frames={};
-// Set to [1280] or [360] for a smaller retry-safe composition phase.
+// Set to [1280] or [360] only when building one layout on an otherwise empty page.
 const widths=typeof SB_WIDTHS==='undefined'?[1280,360]:SB_WIDTHS;
 for(const width of widths) {
  const mobile=width===360,pad=mobile?20:48,inner=width-pad*2,pre=mobile?'Mobile web / ':'Desktop web / ';
  for(let idx=0;idx<definitions.length;idx++) {
   const [key,name]=definitions[idx],identity=pre+name;
-  let f=page.children.find(n=>n.name===identity&&n.type==='FRAME');
-  if(f){frames[width+':'+key]=f;continue;}
-  f=box(page,identity,width,'canvas','VERTICAL',pad,24);f.x=200+(idx%4)*(width+100);f.y=(mobile?8000:0)+Math.floor(idx/4)*1700;frames[width+':'+key]=f;
-  const nav=box(f,'Web navigation',inner,null,mobile?'VERTICAL':'HORIZONTAL',0,16);text(nav,'SilentBeacon',22,'Bold');button(nav,'Campus map',width+':map','Secondary');button(nav,'Rewards',width+':rewards','Secondary');button(nav,'Campus insights',width+':analytics','Secondary');
+  let f=box(page,identity,width,'canvas','VERTICAL',pad,24);f.x=200+(idx%4)*(width+100);f.y=(mobile?8000:0)+Math.floor(idx/4)*1700;frames[width+':'+key]=f;
+  const nav=box(f,'Web navigation',inner,null,mobile?'VERTICAL':'HORIZONTAL',0,16);text(nav,'SilentBeacon',22,'Bold');button(nav,'Campus map',width+':map','Secondary');button(nav,'Rewards',['rewards','rewardsApproved','rewardsRejected'].includes(key)?null:width+':rewards','Secondary');button(nav,'Campus insights',width+':analytics','Secondary');
   text(f,'AITU  /  SE-2416  /  INTERACTIVE WEB PROTOTYPE',11,'Bold','muted',inner);
   const banner=box(f,'Demonstration notice',inner,'soft','VERTICAL',16,0);text(banner,'Demonstration data • schematic campus layout • no live campus information',12,'Bold','teal',inner-32);
   const title=(str,desc)=>{text(f,str,mobile?30:46,'Bold','ink',inner);text(f,desc,16,'Regular','muted',inner);};
@@ -80,29 +82,30 @@ for(const width of widths) {
    button(f,'Explore the campus map',width+':map');
    const r=row('How it works');const cw=mobile?inner:(inner-32)/3;
    line(r,'01  Choose a zone','Browse two schematic floors and compare Quiet, Moderate, Loud and Unknown reports.',cw);
-   line(r,'02  Check freshness','Noise and outlet observations expire independently after 45 minutes.',cw);
+   line(r,'02  Check freshness','Noise and outlet observations expire independently after 30 minutes.',cw);
    line(r,'03  Help the next student','Report what you observe. Community reports guide choices; they do not guarantee conditions.',cw);
    line(f,'Made for campus life','For independent study, online interviews and group work. No seat reservations, indoor navigation or physical IoT sensors.',inner);
   }
-  if(['map','filtered','floor2'].includes(key)) {
+  if(['map','filtered','floor2','floor2Filtered'].includes(key)) {
    title('A good place to begin.','Choose a zone to see its latest community report. The schematic is illustrative, not an approved floor plan.');
-   const controls=row('Map controls');button(controls,'Floor 1',width+':map',key==='floor2'?'Secondary':'Primary');button(controls,'Floor 2',width+':floor2',key==='floor2'?'Primary':'Secondary');button(controls,'Quiet + available outlet',width+':filtered',key==='filtered'?'Primary':'Secondary');
+   const floor2=key==='floor2'||key==='floor2Filtered', filtered=key==='filtered'||key==='floor2Filtered';
+   const controls=row('Map controls');button(controls,'Floor 1',width+':'+(filtered?'filtered':'map'),floor2?'Secondary':'Primary');button(controls,'Floor 2',width+':'+(filtered?'floor2Filtered':'floor2'),floor2?'Primary':'Secondary');button(controls,'Quiet + available outlet',width+':'+(floor2?'floor2Filtered':'filtered'),filtered?'Primary':'Secondary');
    const legend=row('Noise legend');['Quiet','Moderate','Loud','Unknown'].forEach(v=>badge(legend,v));
-   if(key==='floor2') {line(f,'No matching zones on Floor 2','No current demo zone satisfies Quiet + Available. Unknown is not Quiet. The unfiltered schematic below shows all five zones.',inner,'unknownSoft');button(f,'Clear filters · Floor 1',width+':map','Secondary');}
-   {
+   if(key==='floor2Filtered') {line(f,'No matching zones on Floor 2','No current demo zone satisfies Quiet + Available. Unknown is not Quiet. Clear the filter to browse Floor 2.',inner,'unknownSoft');button(f,'Clear filters · Floor 2',width+':floor2','Secondary');}
+   if(key!=='floor2Filtered') {
     const areas=key==='floor2'?[['Z06','Upper study corner','Unknown','Unknown','expired'],['Z07','Open workspace','Unknown','Unknown','expired'],['Z08','Group tables','Unknown','Unknown','expired'],['Z09','Window alcove','Unknown','Unknown','expired'],['Z10','East study nook','Unknown','Unknown','expired']]:key==='filtered'?[['Z01','North study corner','Quiet','Available','details']]:[['Z01','North study corner','Quiet','Available','details'],['Z02','Collaboration tables','Moderate','None available','report'],['Z03','Atrium study area','Loud','None available','report'],['Z04','Window workspace','Unknown','Unknown','expired'],['Z05','Corridor nook','Quiet','None available','report']];
     text(f,key==='filtered'?'1 zone matches Quiet + Available':key==='floor2'?'Floor 2 · schematic zone map':'Floor 1 · schematic zone map',20,'Bold','ink',inner);
     for(let j=0;j<areas.length;j+=mobile?1:3){if(j>0){const corridor=box(f,'Schematic circulation corridor',inner,'line','HORIZONTAL',12,0);text(corridor,'SHARED CORRIDOR  /  illustrative circulation',12,'Bold','muted',inner-24);}const r=row('Schematic area row');for(const z of areas.slice(j,j+(mobile?1:3))){const cw=mobile?inner:(inner-32)/3;const c=box(r,z[0]+' '+z[1],cw,z[2]==='Unknown'?'unknownSoft':'white');text(c,z[0],12,'Bold','muted');text(c,z[1],20,'Bold','ink',cw-48);badge(c,z[2]);text(c,'Outlets: '+z[3],14,'Regular','ink',cw-48);text(c,z[2]==='Unknown'?'No fresh report':'Demo report · 8 min ago',12,'Regular','muted',cw-48);button(c,z[0]==='Z01'?'View zone':z[4]==='expired'?'Open expiry demo (Z01)':'Open report demo (Z01)',width+':'+z[4],'Secondary');}}
    }
-   text(f,'Illustrative Floor 2 zones: Z06–Z10. Current demo observations are Unknown.',12,'Regular','muted',inner);button(f,'Submit a community report',width+':report');
+   if(key!=='floor2Filtered')text(f,'Illustrative campus zones and example observations; no live data.',12,'Regular','muted',inner);button(f,'Open Z01 example report',width+':report');
   }
   if(['details','updated'].includes(key)){
    const updated=key==='updated';title(updated?'Z01 · Your example report':'Z01 · North study corner','Floor 1 • schematic study zone • community observations');
    const r=row('Independent observations'),cw=mobile?inner:(inner-16)/2;
-   const a=box(r,'Noise observation',cw);text(a,'NOISE',12,'Bold','muted');badge(a,updated?'Moderate':'Quiet');text(a,updated?'Observed 14:20 · expires 15:05':'Observed 14:12 · expires 14:57',14,'Regular','muted',cw-48);
-   const b=box(r,'Outlet observation',cw);text(b,'OUTLETS',12,'Bold','muted');text(b,updated?'None available':'Available',28,'Bold','ink',cw-48);text(b,updated?'Observed 14:20 · expires 15:05':'Observed 14:15 · expires 15:00',14,'Regular','muted',cw-48);
+   const a=box(r,'Noise observation',cw);text(a,'NOISE',12,'Bold','muted');badge(a,updated?'Moderate':'Quiet');text(a,updated?'Observed 14:20 · expires 14:50':'Observed 14:12 · expires 14:42',14,'Regular','muted',cw-48);
+   const b=box(r,'Outlet observation',cw);text(b,'OUTLETS',12,'Bold','muted');text(b,updated?'None available':'Available',28,'Bold','ink',cw-48);text(b,updated?'Observed 14:20 · expires 14:50':'Observed 14:15 · expires 14:45',14,'Regular','muted',cw-48);
    line(f,'What this report means',updated?'Example comment: Conversation is getting louder and all outlets are occupied. Simulated submission; no campus report was sent.':'Example comment: Quiet individual study; a free outlet was reported. Reports may change before you arrive.',inner);
-   button(f,'Update this zone',width+':report');button(f,updated?'Open separate expiry scenario':'See 45-minute expiry example',width+':expired','Secondary');
+   button(f,'Update this zone',width+':report');button(f,updated?'Open separate expiry scenario':'See 30-minute expiry example',width+':expired','Secondary');
   }
   if(key==='report'){
    title('Share what you notice.','A quick observation helps another student choose a study space. This walkthrough submits only a simulated example.');
@@ -116,7 +119,7 @@ for(const width of widths) {
   }
   if(key==='verification'){
    title('Example report accepted.','Simulation only: no real campus-network verification or submission has occurred.');
-   line(f,'Receipt DEMO-001','Z01 North study corner\nNoise: Moderate · Outlets: None available\nDemo time: 14:20 · expires at 15:05',inner,'soft');
+   line(f,'Receipt DEMO-001','Z01 North study corner\nNoise: Moderate · Outlets: None available\nDemo time: 14:20 · expires at 14:50',inner,'soft');
    line(f,'Eligibility is not accuracy','A future campus eligibility check would limit who can contribute. It would not confirm a person’s exact zone or prove a report true.',inner);
    button(f,'View updated example zone',width+':updated');button(f,'Explore proposed rewards',width+':rewards','Secondary');
   }
@@ -126,12 +129,15 @@ for(const width of widths) {
    line(f,'Other errors to explain','Invalid category: select one of the listed values.\nRate limit: wait before sending another update.\nDuplicate request: show the existing receipt, not a second report.',inner);
    button(f,'Return to manual report',width+':report');button(f,'Browse the map',width+':map','Secondary');
   }
-  if(key==='rewards'){
+  if(['rewards','rewardsApproved','rewardsRejected'].includes(key)){
    title('A little help.\nA better campus.','Proposed Social GPA rewards — simulated and subject to university approval.');
    line(f,'No academic credit is awarded','This screen explores recognition for useful contributions. No university policy, reward rate or eligibility decision has been approved.',inner,'amberSoft');
-   line(f,'Your demonstration activity','1 example report in this walkthrough\n0 official Social GPA credits awarded',inner);
+   const rewardText=key==='rewards'?'PENDING — Example report awaits verification.':key==='rewardsApproved'?'APPROVED — The example report is verified.':'REJECTED — Duplicate or unverified example; no reward.';
+   line(f,'Your demonstration activity',rewardText+'\nSimulated reward, subject to university approval. No real Social GPA credit is awarded.',inner);
    line(f,'A proposal to discuss','Recognize useful reporting without encouraging spam. University staff would need to approve eligibility, limits, moderation and any relationship to Social GPA.',inner);
    button(f,'Contribute an example report',width+':report');
+   const nextReward=key==='rewards'?['Approved','rewardsApproved']:key==='rewardsApproved'?['Rejected','rewardsRejected']:['Pending','rewards'];
+   button(f,'Next example: '+nextReward[0],width+':'+nextReward[1],'Secondary');
   }
   if(key==='analytics'){
    title('Listen to campus needs.','Administrative campus insights • entirely demonstration data • no measured findings.');
@@ -142,10 +148,10 @@ for(const width of widths) {
    button(f,'Explore example zones',width+':map');
   }
   if(key==='expired'){
-   title('This observation has expired.','At exactly 45 minutes, the expired field becomes Unknown and stops qualifying for filters.');
-   const r=row('Independent field expiry'),cw=mobile?inner:(inner-16)/2;const a=line(r,'Noise · Unknown','Observed 14:12\nDemo now 14:57:00\nAge 45:00 · expired',cw,'unknownSoft');const b=line(r,'Outlets · Available','Observed 14:15\nDemo now 14:57:00\nAge 42:00 · fresh until 15:00',cw,'soft');
+   title('This observation has expired.','At exactly 30 minutes, the expired field becomes Unknown and stops qualifying for filters.');
+   const r=row('Independent field expiry'),cw=mobile?inner:(inner-16)/2;const a=line(r,'Noise · Unknown','Observed 14:12\nDemo now 14:42:00\nAge 30:00 · expired',cw,'unknownSoft');const b=line(r,'Outlets · Available','Observed 14:15\nDemo now 14:42:00\nAge 27:00 · fresh until 14:45',cw,'soft');
    line(f,'Freshness is tracked separately','This zone is excluded from Quiet + Available because its noise is Unknown. An outlet report never becomes fresh just because noise is updated.',inner);
-   text(f,'Boundary comparison: at 14:56:59 (age 44:59), the noise report is fresh. At 14:57:00 (age 45:00), it is Unknown.',12,'Regular','muted',inner);
+   text(f,'Boundary comparison: at 14:41:59 (age 29:59), the noise report is fresh. At 14:42:00 (age 30:00), it is Unknown.',12,'Regular','muted',inner);
    button(f,'Add a fresh example report',width+':report');button(f,'Restart demo · fresh zones',width+':filtered','Secondary');
   }
   if(key==='sampling'){
@@ -161,8 +167,8 @@ let interactionCount=0;
 for(const link of links){const dest=frames[link.target];if(!dest)throw new Error('Missing prototype target '+link.target);let root=link.node;while(root.parent&&root.parent.type!=='PAGE')root=root.parent;if(root.id===dest.id)continue;await link.node.setReactionsAsync([{trigger:{type:'ON_CLICK'},actions:[{type:'NODE',destinationId:dest.id,navigation:'NAVIGATE',transition:null,resetScrollPosition:true}]}]);mutatedNodeIds.push(link.node.id);interactionCount++;}
 const flows=Object.entries(frames).filter(([key])=>key.endsWith(':landing')).map(([key,n])=>({nodeId:n.id,name:key.startsWith('360')?'Responsive web · 360px':'Desktop web · 1280px'}));
 page.flowStartingPoints=[...page.flowStartingPoints.filter(f=>!flows.some(n=>n.nodeId===f.nodeId)),...flows];mutatedNodeIds.push(page.id);
-// Arrange rows from actual content height so long responsive pages never overlap.
-const allScreens=page.children.filter(n=>n.type==='FRAME'&&/^(Desktop|Mobile) web/.test(n.name));
+// Arrange only screens created by this build; never move unrelated page content.
+const allScreens=Object.values(frames);
 let nextY=0;
 for(const width of [1280,360]){const group=allScreens.filter(f=>f.width===width);let y=nextY;for(let i=0;i<group.length;i+=4){const row=group.slice(i,i+4);row.forEach((f,j)=>{f.x=200+j*(width+100);f.y=y;mutatedNodeIds.push(f.id);});y+=Math.max(...row.map(f=>f.height))+160;}nextY=y+300;}
 page.name='SilentBeacon Web Prototype';

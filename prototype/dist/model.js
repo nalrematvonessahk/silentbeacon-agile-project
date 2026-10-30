@@ -1,5 +1,5 @@
 (function(root,factory){const api=factory();if(typeof module==='object'&&module.exports)module.exports=api;else root.SBModel=api;})(typeof globalThis!=='undefined'?globalThis:this,function(){
-  const TTL=45*60*1000;
+  const TTL=30*60*1000;
   const initial=[
     ['Z01','North study corner',1,'Quiet','Available',8,5,'Individual study'],
     ['Z02','Collaboration tables',1,'Moderate','None available',12,10,'Group work'],

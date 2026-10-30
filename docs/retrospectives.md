@@ -1,6 +1,6 @@
 # Sprint Retrospective records
 
-Prepared October 29, 2026. **No retrospective is recorded as held.** Proposed dates are October 31, November 6 and November 12. These templates do not prove participation or process improvement.
+Prepared October 29, 2026; replanned October 30. **No retrospective is recorded as held.** Proposed dates are November 12, December 3 and December 24. These templates do not prove participation or process improvement. The November 13 defense is a separate checkpoint.
 
 ## Agenda — 30 minutes
 

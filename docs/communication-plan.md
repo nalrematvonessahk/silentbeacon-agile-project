@@ -18,7 +18,7 @@ Askhat facilitates the process; Aldiyar clarifies priorities; Developers select 
 
 Focus on progress toward the Sprint Goal and the next coordinated work. Each person briefly states the evidence produced since the previous check, the next task, and any blocker or collaboration needed. Inspect stalled work and WIP limits; take detailed problem solving after the Scrum.
 
-The source proposes ten daily sessions per two-week sprint. That count must be revised for the current six-day schedule; do not assert ten meetings occurred. Use the actual agreed working days.
+Daily coordination is proposed across each three-week sprint; meeting dates and actual working days require team agreement. No meetings are claimed as held.
 
 ### Unsent Telegram template
 
@@ -40,11 +40,11 @@ Coordination needed after Scrum:
 4. Clarify acceptance examples, dependencies and proposed task contacts — 10 minutes.
 5. Confirm evidence expectations, next steps and unresolved decisions — 5 minutes.
 
-Output: a goal, selected work, task plan, capacity record and open blockers. Source sprint assignment is not the same as actual selection. No planning meeting is backdated to October 26.
+Output: a goal, selected work, task plan, capacity record and open blockers. Source sprint assignment is not the same as actual selection. No planning meeting is invented or backdated.
 
 ## Sprint Review and Retrospective
 
-Use the [30-minute Review agenda](sprint-reviews.md) to inspect the product and adapt the backlog. Use the [30-minute Retrospective agenda](retrospectives.md) to choose one process improvement. Preserve them as separate events even if conducted consecutively. Source refinement allocation is 30 minutes per sprint; adjust the shortened routine only through an explicit team agreement.
+Use the [30-minute Review agenda](sprint-reviews.md) to inspect the product and adapt the backlog. Use the [30-minute Retrospective agenda](retrospectives.md) to choose one process improvement. Preserve them as separate events even if conducted consecutively. Source refinement allocation is 30 minutes per sprint; adapt the routine through explicit team agreement.
 
 ## Decision and blocker handling
 
